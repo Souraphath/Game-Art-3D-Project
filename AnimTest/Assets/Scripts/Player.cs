@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     public GameObject cameraObject;
     CameraScript cameraScript;
 
+    Animator anim;
+
     public CharacterController cc;
 
     float forwardSpeed;
@@ -22,6 +24,7 @@ public class Player : MonoBehaviour
         cc = GetComponent<CharacterController>();
         cameraScript = cameraObject.GetComponent<CameraScript>();
         verticalVelocity = 0f;
+        anim = GetComponent<Animator>();
     }
 
     void LateUpdate()
@@ -47,10 +50,15 @@ public class Player : MonoBehaviour
         if (cc.isGrounded && Input.GetButtonDown("Jump"))
         {
             verticalVelocity = jumpSpeed;
+            anim.SetTrigger("Jump");
         }
 
         Vector3 velocity = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
         velocity = transform.rotation * velocity;
+        if(sideSpeed != 0)
+            anim.SetFloat("Walk", Mathf.Abs(sideSpeed));
+        if(forwardSpeed != 0)
+            anim.SetFloat("Walk", Mathf.Abs(forwardSpeed));
 
         cc.Move(velocity * Time.deltaTime);
     }

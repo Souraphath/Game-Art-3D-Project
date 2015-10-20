@@ -31,8 +31,8 @@ public class CameraScript : MonoBehaviour
     {
         parentLastPos = transform.parent.position;
         in2DMode = true;
-        zPos = -15f;
-        transform.localPosition = new Vector3(0, 2, zPos);
+        zPos = -5f;
+        transform.localPosition = new Vector3(0, 0, zPos);
     }
 
     void LateUpdate()
@@ -40,9 +40,9 @@ public class CameraScript : MonoBehaviour
         if (Input.GetButtonDown("Switch")) {
             in2DMode = !in2DMode;
             if (in2DMode) {
-                zPos = Mathf.SmoothDamp(-15, -8, ref yRotV, 2);
+                zPos = Mathf.SmoothDamp(-5f, -3, ref yRotV, 2);
             } else {
-                zPos = Mathf.SmoothDamp(-8, -15, ref yRotV, 2);
+                zPos = Mathf.SmoothDamp(-3, -5f, ref yRotV, 2);
             }
         }
         parentLastPos = transform.parent.position;
@@ -56,7 +56,7 @@ public class CameraScript : MonoBehaviour
             xRot = 0;
             transform.localPosition = new Vector3(0, 0, zPos);
         } else {
-            transform.localPosition = new Vector3(0, 2, zPos);
+            transform.localPosition = new Vector3(0, 0, zPos);
             curYRot = Mathf.SmoothDamp(curYRot, 90 + yRot, ref yRotV, lookSmoothDamp);
             // xRot -= Input.GetAxis("Mouse Y") * lookSensitivity * currentAimRatio;
             xRot = Mathf.Clamp(xRot, -80, 60);
