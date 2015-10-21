@@ -26,7 +26,6 @@ public class Player : MonoBehaviour
         verticalVelocity = 0f;
         anim = GetComponent<Animator>();
     }
-
     void LateUpdate()
     {
         transform.rotation = Quaternion.Euler(0, cameraObject.GetComponent<CameraScript>().curYRot, 0);
@@ -44,13 +43,16 @@ public class Player : MonoBehaviour
             forwardSpeed = Input.GetAxis("Vertical") * moveSpeed;
 
         verticalVelocity += Physics.gravity.y * 1.5f * Time.deltaTime;
-        if (cc.isGrounded)
-            verticalVelocity = -0.1f;
+        if (cc.isGrounded) {
+			anim.SetBool("Jump",false);
+			verticalVelocity = -0.1f;
+
+		}
 
         if (cc.isGrounded && Input.GetButtonDown("Jump"))
         {
             verticalVelocity = jumpSpeed;
-            anim.SetTrigger("Jump");
+            anim.SetBool("Jump",true);
         }
 
         Vector3 velocity = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
@@ -61,5 +63,23 @@ public class Player : MonoBehaviour
             anim.SetFloat("Walk", Mathf.Abs(forwardSpeed));
 
         cc.Move(velocity * Time.deltaTime);
+		if (Input.GetAxis ("Horizontal") < -0.1f) {
+			transform.localScale=new Vector3(-3,3,3);
+		}
+		if (Input.GetAxis ("Horizontal") > 0.1f) {
+			transform.localScale=new Vector3(3,3,3);
+		}
+		if(Input.GetButtonDown("Fire1"))
+			anim.SetBool("Slash",true);
+		if(Input.GetButtonDown("Fire2"))
+			anim.SetBool("Shoot",true);
+		if (Input.GetButtonUp ("Fire1"))
+			anim.SetBool ("Slash", false);
+		if (Input.GetButtonUp ("Fire2"))
+			anim.SetBool ("Shoot", false);
+		if ( Input.GetKeyDown (KeyCode.LeftShift)&&cc.isGrounded) {
+			cc.Move(velocity * Time.deltaTime*5);
+			anim.SetTrigger("Dash");
+		}
     }
 }
