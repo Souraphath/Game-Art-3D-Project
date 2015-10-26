@@ -42,11 +42,11 @@ public class Player : MonoBehaviour
         else
             forwardSpeed = Input.GetAxis("Vertical") * moveSpeed;
 
-        verticalVelocity += Physics.gravity.y * 1.5f * Time.deltaTime;
+        if(!cc.isGrounded)
+            verticalVelocity += Physics.gravity.y * 1.5f * Time.deltaTime;
+
         if (cc.isGrounded) {
 			anim.SetBool("Jump",false);
-			verticalVelocity = -0.1f;
-
 		}
 
         if (cc.isGrounded && Input.GetButtonDown("Jump"))

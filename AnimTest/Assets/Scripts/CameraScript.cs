@@ -31,7 +31,7 @@ public class CameraScript : MonoBehaviour
     {
         parentLastPos = transform.parent.position;
         in2DMode = true;
-        zPos = -5f;
+        zPos = -3f;
         transform.localPosition = new Vector3(0, 0, zPos);
     }
 
@@ -40,9 +40,9 @@ public class CameraScript : MonoBehaviour
         if (Input.GetButtonDown("Switch")) {
             in2DMode = !in2DMode;
             if (in2DMode) {
-                zPos = Mathf.SmoothDamp(-5f, -3, ref yRotV, 2);
+                zPos = Mathf.SmoothDamp(-3f, -2, ref yRotV, 2);
             } else {
-                zPos = Mathf.SmoothDamp(-3, -5f, ref yRotV, 2);
+                zPos = Mathf.SmoothDamp(-2, -3f, ref yRotV, 2);
             }
         }
         parentLastPos = transform.parent.position;
