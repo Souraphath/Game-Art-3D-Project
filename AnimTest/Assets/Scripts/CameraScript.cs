@@ -32,7 +32,7 @@ public class CameraScript : MonoBehaviour
         parentLastPos = transform.parent.position;
         in2DMode = true;
         zPos = -3f;
-        transform.localPosition = new Vector3(0, 0, zPos);
+        transform.localPosition = new Vector3(0, -0.225f, zPos);
     }
 
     void LateUpdate()
@@ -54,7 +54,7 @@ public class CameraScript : MonoBehaviour
         if (in2DMode) {
             curYRot = Mathf.SmoothDamp(curYRot, 0, ref yRotV, lookSmoothDamp);
             xRot = 0;
-            transform.localPosition = new Vector3(0, 0, zPos);
+            transform.localPosition = new Vector3(0, -0.225f, zPos);
         } else {
             transform.localPosition = new Vector3(0, 0, zPos);
             curYRot = Mathf.SmoothDamp(curYRot, 90 + yRot, ref yRotV, lookSmoothDamp);
@@ -63,5 +63,8 @@ public class CameraScript : MonoBehaviour
         }
 
         transform.rotation = Quaternion.Euler(curXRot, curYRot, 0);
+
+        if (transform.position.y <= -15)
+            transform.position = new Vector3(transform.position.x, -15f, transform.position.z);
     }
 }

@@ -81,5 +81,9 @@ public class Player : MonoBehaviour
 			cc.Move(velocity * Time.deltaTime*5);
 			anim.SetTrigger("Dash");
 		}
+
+        if(transform.position.y <= -20) {
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
 }
