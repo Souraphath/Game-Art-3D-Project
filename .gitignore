@@ -43,16 +43,16 @@ Temporary Items
 .apdisk
 
 # Ignore changes to unnecessary files
-*/Game-Art-3D-Project/.vs/*
-*/Game-Art-3D-Project/GameExec_Data/*
-*/Game-Art-3D-Project/Library/*
-*/Game-Art-3D-Project/obj/*
-*/Game-Art-3D-Project/perspective_Data/*
-*/Game-Art-3D-Project/ProjectSettings/*
-*/Game-Art-3D-Project/AnimTest.sln
-*/Game-Art-3D-Project/AnimTest.userprefs
-*/Game-Art-3D-Project/AnimTest-csharp.sln
-*/Game-Art-3D-Project/Assembly-CSharp.csproj
-*/Game-Art-3D-Project/Assembly-CSharp-vs.csproj
-*/Game-Art-3D-Project/GameExec.exe
-*/Game-Art-3D-Project/perspective.exe
+*/Game-Art-3D-Project/AnimTest/.vs/*
+*/Game-Art-3D-Project/AnimTest/GameExec_Data/*
+*/Game-Art-3D-Project/AnimTest/Library/*
+*/Game-Art-3D-Project/AnimTest/obj/*
+*/Game-Art-3D-Project/AnimTest/perspective_Data/*
+*/Game-Art-3D-Project/AnimTest/ProjectSettings/*
+*/Game-Art-3D-Project/AnimTest/AnimTest.sln
+*/Game-Art-3D-Project/AnimTest/AnimTest.userprefs
+*/Game-Art-3D-Project/AnimTest/AnimTest-csharp.sln
+*/Game-Art-3D-Project/AnimTest/Assembly-CSharp.csproj
+*/Game-Art-3D-Project/AnimTest/Assembly-CSharp-vs.csproj
+*/Game-Art-3D-Project/AnimTest/GameExec.exe
+*/Game-Art-3D-Project/AnimTest/perspective.exe
