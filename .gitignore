@@ -43,12 +43,12 @@ Temporary Items
 .apdisk
 
 # Ignore changes to unnecessary files
-/Game-Art-3D-Project/AnimTest/.vs/**
-/Game-Art-3D-Project/AnimTest/GameExec_Data/**
-/Game-Art-3D-Project/AnimTest/Library/**
-/Game-Art-3D-Project/AnimTest/obj/**
-/Game-Art-3D-Project/AnimTest/perspective_Data/**
-/Game-Art-3D-Project/AnimTest/ProjectSettings/**
+/Game-Art-3D-Project/AnimTest/.vs/*
+/Game-Art-3D-Project/AnimTest/GameExec_Data/*
+/Game-Art-3D-Project/AnimTest/Library/*
+/Game-Art-3D-Project/AnimTest/obj/*
+/Game-Art-3D-Project/AnimTest/perspective_Data/*
+/Game-Art-3D-Project/AnimTest/ProjectSettings/*
 /Game-Art-3D-Project/AnimTest/AnimTest.sln
 /Game-Art-3D-Project/AnimTest/AnimTest.userprefs
 /Game-Art-3D-Project/AnimTest/AnimTest-csharp.sln
