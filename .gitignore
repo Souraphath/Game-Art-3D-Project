@@ -44,4 +44,5 @@ Temporary Items
 
 # Ignore changes to unnecessary files
 *
+!.gitignore
 !Game-Art-3D-Project/AnimTest/Assets/*
