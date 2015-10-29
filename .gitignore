@@ -43,6 +43,7 @@ Temporary Items
 .apdisk
 # Ignore everything
 /*
+Game-Art-3D-Project\AnimTest\Library\*
 
 # Execept for these files
 !.gitignore
