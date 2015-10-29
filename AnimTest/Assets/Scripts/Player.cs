@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     float sideSpeed=0f;
     float verticalVelocity;
     float jumpSpeed = 7.9f;
+	bool secondjump = false;
 
     void Start()
     {
@@ -49,15 +50,22 @@ public class Player : MonoBehaviour
 
         if (cc.isGrounded) {
 			anim.SetBool("Jump",false);
+			anim.SetBool("SecondJump",false);
 			verticalVelocity=0;
 			anim.SetBool ("Falling",false);
 		}
 
-        if (cc.isGrounded && Input.GetButtonDown("Jump"))
-        {
+        if (cc.isGrounded && Input.GetButtonDown("Jump")){
             verticalVelocity = jumpSpeed;
             anim.SetBool("Jump",true);
+			secondjump=true;
         }
+		else if(secondjump==true&&Input.GetButtonDown("Jump")){
+			verticalVelocity = 0;
+			verticalVelocity = jumpSpeed;
+			anim.SetBool("SecondJump",true);
+			secondjump=false;
+		}
 
         Vector3 velocity = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
         velocity = transform.rotation * velocity;
