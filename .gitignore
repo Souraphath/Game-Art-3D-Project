@@ -46,6 +46,7 @@ Temporary Items
 
 # Execept for these files
 !.gitignore
+!Game-Art-3D-Project/AnimTest/Assets/
 !Game-Art-3D-Project/AnimTest/Assets/*
 !Game-Art-3D-Project/AnimTest/Assets/*/*
 !Game-Art-3D-Project/AnimTest/Assets/*/*/*
