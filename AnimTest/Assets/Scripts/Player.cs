@@ -47,7 +47,6 @@ public class Player : MonoBehaviour
 		if (verticalVelocity<-2)
 			anim.SetBool ("Falling",true);
 
-		print (verticalVelocity);
         if (cc.isGrounded) {
 			anim.SetBool("Jump",false);
 			verticalVelocity=0;
