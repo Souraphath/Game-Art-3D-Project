@@ -51,9 +51,13 @@
      <Compile Include="Assets\Scripts\ElevatorScript.cs" />
      <Compile Include="Assets\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Scripts\OpenDoorScript.cs" />
+     <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\QuitScript.cs" />
      <Compile Include="Assets\Scripts\SceneSwitch.cs" />
+     <Compile Include="Assets\Scripts\SetAudioLevels.cs" />
+     <Compile Include="Assets\Scripts\ShowPanels.cs" />
+     <Compile Include="Assets\Scripts\StartOptions.cs" />
      <Compile Include="Assets\Scripts\TextureTilingController.cs" />
      <Compile Include="Assets\Scripts\ZerosMovement.cs" />
      <Compile Include="Assets\Scripts\ZerosShoot.cs" />
