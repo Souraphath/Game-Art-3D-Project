@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     float jumpSpeed = 7.9f;
 	bool secondjump = false;
 
+    public GameObject shadow;
+
     void Start()
     {
         //Cursor.visible = false;
