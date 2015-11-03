@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Audio;
 
 public class Pause : MonoBehaviour {
 
@@ -8,6 +9,11 @@ public class Pause : MonoBehaviour {
 	private bool isPaused;								//Boolean to check if the game is paused or not
 	private StartOptions startScript;					//Reference to the StartButton script
 	
+	public AudioClip[] musicClips;
+	private AudioSource musicSource;
+	public AudioMixerSnapshot volumeDown;			//Reference to Audio mixer snapshot in which the master volume of main mixer is turned down
+	public AudioMixerSnapshot volumeUp;	
+
 	//Awake is called before Start()
 	void Awake()
 	{
@@ -15,6 +21,7 @@ public class Pause : MonoBehaviour {
 		showPanels = GetComponent<ShowPanels> ();
 		//Get a component reference to StartButton attached to this object, store in startScript variable
 		startScript = GetComponent<StartOptions> ();
+		musicSource = GetComponent<AudioSource> ();
 	}
 
 	// Update is called once per frame
@@ -56,6 +63,5 @@ public class Pause : MonoBehaviour {
 		//call the HidePausePanel function of the ShowPanels script
 		showPanels.HidePausePanel ();
 	}
-
 
 }

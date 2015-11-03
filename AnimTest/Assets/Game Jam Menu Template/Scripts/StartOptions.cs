@@ -23,7 +23,6 @@ public class StartOptions : MonoBehaviour {
 	private PlayMusic playMusic;										//Reference to PlayMusic script
 	private float fastFadeIn = .01f;									//Very short fade time (10 milliseconds) to start playing music immediately without a click/glitch
 	private ShowPanels showPanels;										//Reference to ShowPanels script on UI GameObject, to show and hide panels
-
 	
 	void Awake()
 	{
@@ -61,6 +60,7 @@ public class StartOptions : MonoBehaviour {
 			inMainMenu = false;
 			//playMusic.FadeDown(fadeColorAnimationClip.length);
 			showPanels.HideMenu ();
+			playMusic.FadeDown(1f);
 			//Call the StartGameInScene function to start game without loading a new scene.
 			//StartGameInScene();
 			LoadDelayed ();
