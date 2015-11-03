@@ -16,8 +16,8 @@ public class PlayMusic : MonoBehaviour {
 		//Get a component reference to the AudioSource attached to the UI game object
 		musicSource = GetComponent<AudioSource> ();
 		musicClips = new AudioClip[]{
-			Resources.Load ("Assets/Sound/Music/Deep Haze") as AudioClip,
-			Resources.Load ("Assets/Sound/Music/Rhinoceros") as AudioClip
+			Resources.Load ("Deep Haze") as AudioClip,
+			Resources.Load ("Rhinoceros") as AudioClip
 		};
 	}
 	
