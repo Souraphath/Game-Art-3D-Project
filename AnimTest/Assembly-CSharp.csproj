@@ -46,24 +46,30 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\EventSystemChecker.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\Pause.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\PlayMusic.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\QuitApplication.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\SetAudioLevels.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\ShowPanels.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\StartOptions.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\Collectible.cs" />
+     <Compile Include="Assets\Scripts\DamageCube.cs" />
      <Compile Include="Assets\Scripts\ElevatorScript.cs" />
      <Compile Include="Assets\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Scripts\OpenDoorScript.cs" />
-     <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\QuitScript.cs" />
      <Compile Include="Assets\Scripts\SceneSwitch.cs" />
-     <Compile Include="Assets\Scripts\SetAudioLevels.cs" />
-     <Compile Include="Assets\Scripts\ShowPanels.cs" />
-     <Compile Include="Assets\Scripts\StartOptions.cs" />
      <Compile Include="Assets\Scripts\TextureTilingController.cs" />
      <Compile Include="Assets\Scripts\ZerosMovement.cs" />
      <Compile Include="Assets\Scripts\ZerosShoot.cs" />
      <Compile Include="Assets\Scripts\ZerosSlash.cs" />
      <Compile Include="Assets\Second\MouseLook.cs" />
      <Compile Include="Assets\Second\PlayerMove.cs" />
+     <None Include="Assets\Game Jam Menu Template\Fonts\OpenSans\License!.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
