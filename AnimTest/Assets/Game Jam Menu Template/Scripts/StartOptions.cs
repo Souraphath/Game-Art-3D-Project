@@ -60,7 +60,7 @@ public class StartOptions : MonoBehaviour {
 			inMainMenu = false;
 			//playMusic.FadeDown(fadeColorAnimationClip.length);
 			showPanels.HideMenu ();
-			playMusic.FadeDown(1f);
+			//playMusic.FadeDown(1f);
 			//Call the StartGameInScene function to start game without loading a new scene.
 			//StartGameInScene();
 			LoadDelayed ();
