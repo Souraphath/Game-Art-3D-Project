@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 20337406257611e45b06fe1bd2f89696
+timeCreated: 1446758796
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Zero's TP_4
+    21300002: Zero's TP_5
+    21300004: Zero's TP_6
+    21300006: Zero's TP_9
+    21300008: Zero's TP_13
+    21300010: Zero's TP_17
+    21300012: Zero's TP_20
+    21300014: Zero's TP_21
+    21300016: Zero's TP_22
+    21300018: Zero's TP_23
+    21300020: Zero's TP_24
+    21300022: Zero's TP_25
+    21300024: Zero's TP_26
+    21300026: Zero's TP_27
+    21300028: Zero's TP_28
+    21300030: Zero's TP_29
+    21300032: Zero's TP_30
+    21300034: Zero's TP_31
+    21300036: Zero's TP_3
+    21300038: Zero's TP_2
+    21300040: Zero's TP_1
+    21300042: Zero's TP_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Zero's TP_4
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1
+        width: 30
+        height: 54
+      alignment: 9
+      pivot: {x: .5, y: .409999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 31
+        height: 54
+      alignment: 9
+      pivot: {x: .550000012, y: .409999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1
+        width: 31
+        height: 54
+      alignment: 9
+      pivot: {x: .550000012, y: .409999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: .550000012, y: .414999992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 2
+        width: 29
+        height: 53
+      alignment: 9
+      pivot: {x: .589999974, y: .398000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2
+        width: 29
+        height: 54
+      alignment: 9
+      pivot: {x: .589999974, y: .389999986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_20
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2
+        width: 29
+        height: 54
+      alignment: 9
+      pivot: {x: .589999974, y: .389999986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_21
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 3
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_22
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_23
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 3
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_24
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_25
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 3
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_26
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 3
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_27
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 3
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_28
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 3
+        width: 34
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_29
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 3
+        width: 34
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_30
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 3
+        width: 34
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_31
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 3
+        width: 34
+        height: 40
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1
+        width: 17
+        height: 54
+      alignment: 9
+      pivot: {x: .5, y: .389999986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 13
+        height: 54
+      alignment: 9
+      pivot: {x: .5, y: .389999986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2
+        width: 6
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zero's TP_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 3
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

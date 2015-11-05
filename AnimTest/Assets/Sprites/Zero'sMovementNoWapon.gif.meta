@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3d93ff7e8e4924a45b7c142eb0345168
-timeCreated: 1445218422
+timeCreated: 1446760355
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -79,36 +79,36 @@ TextureImporter:
     21300144: Zero'sMovementNoWapon_72
     21300146: Zero'sMovementNoWapon_73
     21300148: Zero'sMovementNoWapon_74
-    21300150: Zero'sMovementNoWapon_75
-    21300152: Zero'sMovementNoWapon_76
-    21300154: Zero'sMovementNoWapon_77
+    21300150: Tp_out1
+    21300152: Tp_out2
+    21300154: Tp_out3
     21300156: Zero'sMovementNoWapon_78
-    21300158: Zero'sMovementNoWapon_79
+    21300158: Tp_out4
     21300160: Zero'sMovementNoWapon_80
-    21300162: Zero'sMovementNoWapon_81
-    21300164: Zero'sMovementNoWapon_82
+    21300162: Tp_out5
+    21300164: Tp_out6
     21300166: Zero'sMovementNoWapon_83
-    21300168: Zero'sMovementNoWapon_84
+    21300168: Tp_out7
     21300170: Zero'sMovementNoWapon_85
-    21300172: Zero'sMovementNoWapon_86
-    21300174: Zero'sMovementNoWapon_87
+    21300172: Tp_out8
+    21300174: Tp_out9
     21300176: Zero'sMovementNoWapon_88
-    21300178: Zero'sMovementNoWapon_89
+    21300178: Tp_out10
     21300180: Zero'sMovementNoWapon_90
-    21300182: Zero'sMovementNoWapon_91
+    21300182: Tp_out11
     21300184: Zero'sMovementNoWapon_92
-    21300186: Zero'sMovementNoWapon_93
-    21300188: Zero'sMovementNoWapon_94
+    21300186: Tp_out12
+    21300188: Tp_out13
     21300190: Zero'sMovementNoWapon_95
-    21300192: Zero'sMovementNoWapon_96
-    21300194: Zero'sMovementNoWapon_97
-    21300196: Zero'sMovementNoWapon_98
-    21300198: Zero'sMovementNoWapon_99
-    21300200: Zero'sMovementNoWapon_100
-    21300202: Zero'sMovementNoWapon_101
-    21300204: Zero'sMovementNoWapon_102
+    21300192: Tp_out14
+    21300194: Tp_out18
+    21300196: Tp_out15
+    21300198: Tp_out15
+    21300200: Tp_out19
+    21300202: Tp_out16
+    21300204: Tp_out20
     21300206: Zero'sMovementNoWapon_103
-    21300208: Zero'sMovementNoWapon_104
+    21300208: Tp_out18
     21300210: Zero'sMovementNoWapon_105
     21300212: Zero'sMovementNoWapon_106
     21300214: Zero'sMovementNoWapon_107
@@ -134,6 +134,7 @@ TextureImporter:
     21300254: Zero'sMovementNoWapon_127
     21300256: Zero'sMovementNoWapon_128
     21300258: Zero'sMovementNoWapon_129
+    21300260: Tp_out17
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -929,7 +930,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_75
+    - name: Tp_out1
       rect:
         serializedVersion: 2
         x: 6
@@ -939,7 +940,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_76
+    - name: Tp_out2
       rect:
         serializedVersion: 2
         x: 46
@@ -949,15 +950,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_77
+    - name: Tp_out3
       rect:
         serializedVersion: 2
         x: 77
         y: 233
         width: 25
         height: 43
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .540000021, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Zero'sMovementNoWapon_78
       rect:
@@ -969,15 +970,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_79
+    - name: Tp_out4
       rect:
         serializedVersion: 2
         x: 109
         y: 233
         width: 28
         height: 43
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .589999974, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Zero'sMovementNoWapon_80
       rect:
@@ -989,25 +990,25 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_81
+    - name: Tp_out5
       rect:
         serializedVersion: 2
         x: 146
         y: 233
         width: 27
         height: 43
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .579999983, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_82
+    - name: Tp_out6
       rect:
         serializedVersion: 2
         x: 178
         y: 233
         width: 34
         height: 43
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .670000017, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Zero'sMovementNoWapon_83
       rect:
@@ -1019,15 +1020,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_84
+    - name: Tp_out7
       rect:
         serializedVersion: 2
         x: 221
         y: 233
         width: 27
         height: 43
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .579999983, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Zero'sMovementNoWapon_85
       rect:
@@ -1039,25 +1040,25 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_86
+    - name: Tp_out8
       rect:
         serializedVersion: 2
         x: 255
         y: 233
         width: 30
         height: 43
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .620000005, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_87
+    - name: Tp_out9
       rect:
         serializedVersion: 2
         x: 293
         y: 233
         width: 25
         height: 43
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .550000012, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Zero'sMovementNoWapon_88
       rect:
@@ -1069,15 +1070,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_89
+    - name: Tp_out10
       rect:
         serializedVersion: 2
         x: 323
         y: 233
         width: 25
         height: 43
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .550000012, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Zero'sMovementNoWapon_90
       rect:
@@ -1089,15 +1090,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_91
+    - name: Tp_out11
       rect:
         serializedVersion: 2
-        x: 354
+        x: 353
         y: 232
-        width: 25
+        width: 26
         height: 47
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .550000012, y: .449999988}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Zero'sMovementNoWapon_92
       rect:
@@ -1109,105 +1110,65 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_93
+    - name: Tp_out12
       rect:
         serializedVersion: 2
         x: 387
         y: 233
         width: 26
         height: 47
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .550000012, y: .449999988}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_94
+    - name: Tp_out13
       rect:
         serializedVersion: 2
         x: 421
         y: 232
         width: 26
         height: 47
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .550000012, y: .449999988}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Zero'sMovementNoWapon_95
       rect:
         serializedVersion: 2
         x: 432
-        y: 283
+        y: 291
         width: 43
-        height: 85
+        height: 77
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_96
+    - name: Tp_out14
       rect:
         serializedVersion: 2
         x: 456
-        y: 229
-        width: 13
-        height: 53
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        y: 227
+        width: 25
+        height: 64
+      alignment: 9
+      pivot: {x: .529999971, y: .409999996}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_97
+    - name: Tp_out15
       rect:
         serializedVersion: 2
-        x: 470
-        y: 231
-        width: 7
-        height: 48
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 491
+        y: 227
+        width: 25
+        height: 64
+      alignment: 9
+      pivot: {x: .529999971, y: .409999996}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_98
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 232
-        width: 4
-        height: 41
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_99
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 232
-        width: 4
-        height: 41
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_100
-      rect:
-        serializedVersion: 2
-        x: 505
-        y: 233
-        width: 4
-        height: 46
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_101
+    - name: Tp_out16
       rect:
         serializedVersion: 2
         x: 527
-        y: 232
-        width: 7
-        height: 47
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_102
-      rect:
-        serializedVersion: 2
-        x: 538
-        y: 233
-        width: 4
-        height: 46
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        y: 227
+        width: 25
+        height: 64
+      alignment: 9
+      pivot: {x: .409999996, y: .409999996}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Zero'sMovementNoWapon_103
       rect:
@@ -1219,13 +1180,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Zero'sMovementNoWapon_104
+    - name: Tp_out17
       rect:
         serializedVersion: 2
-        x: 570
-        y: 233
-        width: 4
-        height: 46
+        x: 560
+        y: 227
+        width: 21
+        height: 66
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1476,6 +1437,36 @@ TextureImporter:
         y: 26
         width: 22
         height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tp_out18
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 227
+        width: 14
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tp_out19
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 227
+        width: 13
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tp_out20
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 227
+        width: 6
+        height: 66
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
