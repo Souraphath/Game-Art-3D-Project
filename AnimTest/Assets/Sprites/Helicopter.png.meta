@@ -1,0 +1,1706 @@
+fileFormatVersion: 2
+guid: ea0c264420b2f5940929918da79aabf1
+timeCreated: 1446700044
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Helicopter_0
+    21300002: Helicopter_1
+    21300004: Helicopter_2
+    21300006: Helicopter_3
+    21300008: Helicopter_4
+    21300010: Helicopter_5
+    21300012: Helicopter_6
+    21300014: Helicopter_7
+    21300016: Helicopter_8
+    21300018: Helicopter_9
+    21300020: Helicopter_10
+    21300022: Helicopter_11
+    21300024: Helicopter_12
+    21300026: Helicopter_13
+    21300028: Helicopter_14
+    21300030: Helicopter_15
+    21300032: Helicopter_16
+    21300034: Helicopter_17
+    21300036: Helicopter_18
+    21300038: Helicopter_19
+    21300040: Helicopter_20
+    21300042: Helicopter_21
+    21300044: Helicopter_22
+    21300046: Helicopter_23
+    21300048: Helicopter_24
+    21300050: Helicopter_25
+    21300052: Helicopter_26
+    21300054: Helicopter_27
+    21300056: Helicopter_28
+    21300058: Helicopter_29
+    21300060: Helicopter_30
+    21300062: Helicopter_31
+    21300064: Helicopter_32
+    21300066: Helicopter_33
+    21300068: Helicopter_34
+    21300070: Helicopter_35
+    21300072: Helicopter_36
+    21300074: Helicopter_37
+    21300076: Helicopter_38
+    21300078: Helicopter_39
+    21300080: Helicopter_40
+    21300082: Helicopter_41
+    21300084: Helicopter_42
+    21300086: Helicopter_43
+    21300088: Helicopter_44
+    21300090: Helicopter_45
+    21300092: Helicopter_46
+    21300094: Helicopter_47
+    21300096: Helicopter_48
+    21300098: Helicopter_49
+    21300100: Helicopter_50
+    21300102: Helicopter_51
+    21300104: Helicopter_52
+    21300106: Helicopter_53
+    21300108: Helicopter_54
+    21300110: Helicopter_55
+    21300112: Helicopter_56
+    21300114: Helicopter_57
+    21300116: Helicopter_58
+    21300118: Helicopter_59
+    21300120: Helicopter_60
+    21300122: Helicopter_61
+    21300124: Helicopter_62
+    21300126: Helicopter_63
+    21300128: Helicopter_64
+    21300130: Helicopter_65
+    21300132: Helicopter_66
+    21300134: Helicopter_67
+    21300136: Helicopter_68
+    21300138: Helicopter_69
+    21300140: Helicopter_70
+    21300142: Helicopter_71
+    21300144: Helicopter_72
+    21300146: Helicopter_73
+    21300148: Helicopter_74
+    21300150: Helicopter_75
+    21300152: Helicopter_76
+    21300154: Helicopter_77
+    21300156: Helicopter_78
+    21300158: Helicopter_79
+    21300160: Helicopter_80
+    21300162: Helicopter_81
+    21300164: Helicopter_82
+    21300166: Helicopter_83
+    21300168: Helicopter_84
+    21300170: Helicopter_85
+    21300172: Helicopter_86
+    21300174: Helicopter_87
+    21300176: Helicopter_88
+    21300178: Helicopter_89
+    21300180: Helicopter_90
+    21300182: Helicopter_91
+    21300184: Helicopter_92
+    21300186: Helicopter_93
+    21300188: Helicopter_94
+    21300190: Helicopter_95
+    21300192: Helicopter_96
+    21300194: Helicopter_97
+    21300196: Helicopter_98
+    21300198: Helicopter_99
+    21300200: Helicopter_100
+    21300202: Helicopter_101
+    21300204: Helicopter_102
+    21300206: Helicopter_103
+    21300208: Helicopter_104
+    21300210: Helicopter_105
+    21300212: Helicopter_106
+    21300214: Helicopter_107
+    21300216: Helicopter_108
+    21300218: Helicopter_109
+    21300220: Helicopter_110
+    21300222: Helicopter_111
+    21300224: Helicopter_112
+    21300226: Helicopter_113
+    21300228: Helicopter_114
+    21300230: Helicopter_115
+    21300232: Helicopter_116
+    21300234: Helicopter_117
+    21300236: Helicopter_118
+    21300238: Helicopter_119
+    21300240: Helicopter_120
+    21300242: Helicopter_121
+    21300244: Helicopter_122
+    21300246: Helicopter_123
+    21300248: Helicopter_124
+    21300250: Helicopter_125
+    21300252: Helicopter_126
+    21300254: Helicopter_127
+    21300256: Helicopter_128
+    21300258: Helicopter_129
+    21300260: Helicopter_130
+    21300262: Helicopter_131
+    21300264: Helicopter_132
+    21300266: Helicopter_133
+    21300268: Helicopter_134
+    21300270: Helicopter_135
+    21300272: Helicopter_136
+    21300274: Helicopter_137
+    21300276: Helicopter_138
+    21300278: Helicopter_139
+    21300280: Helicopter_140
+    21300282: Helicopter_141
+    21300284: Helicopter_142
+    21300286: Helicopter_143
+    21300288: Helicopter_144
+    21300290: Helicopter_145
+    21300292: Helicopter_146
+    21300294: Helicopter_147
+    21300296: Helicopter_148
+    21300298: Helicopter_149
+    21300300: Helicopter_150
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Helicopter_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 982
+        width: 90
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 980
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 979
+        width: 93
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 980
+        width: 89
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 978
+        width: 89
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_5
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 978
+        width: 93
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 977
+        width: 93
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 886
+        width: 89
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 890
+        width: 89
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 892
+        width: 89
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_10
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 891
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 892
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_12
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 890
+        width: 89
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_13
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 888
+        width: 89
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 780
+        width: 90
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 781
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_16
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 780
+        width: 93
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 777
+        width: 89
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_18
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 779
+        width: 89
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_19
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 783
+        width: 93
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_20
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 782
+        width: 93
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 678
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 677
+        width: 95
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 677
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_24
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 672
+        width: 96
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_25
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 672
+        width: 94
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_26
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 674
+        width: 94
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_28
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 673
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_29
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 547
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 485
+        width: 84
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 486
+        width: 82
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 486
+        width: 76
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_33
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 486
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_34
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 486
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_35
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 486
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_36
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 486
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 466
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_38
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 466
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 452
+        width: 37
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_40
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 450
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_41
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 446
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_42
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 442
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_43
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 439
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_44
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 440
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_45
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 442
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_46
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 441
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_47
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 441
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_48
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 440
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_49
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 442
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 440
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_51
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 439
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_52
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 438
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_53
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 424
+        width: 61
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_54
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 424
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 424
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_56
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 399
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_57
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 401
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_58
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 399
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_59
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 403
+        width: 68
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_60
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 398
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_61
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 398
+        width: 57
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_62
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 398
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_63
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 397
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_64
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 396
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_65
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 376
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_66
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 376
+        width: 80
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_67
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 376
+        width: 36
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_68
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 379
+        width: 51
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 370
+        width: 68
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_70
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 371
+        width: 58
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_71
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 375
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_72
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 374
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_73
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 373
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_74
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 370
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_75
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 370
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_76
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 347
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_77
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 350
+        width: 80
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_78
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 348
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_79
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 347
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_80
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 349
+        width: 80
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_81
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 346
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_82
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 347
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_83
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 347
+        width: 51
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_84
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 346
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_85
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 345
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_86
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 326
+        width: 80
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_87
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 325
+        width: 68
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_88
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 326
+        width: 60
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_89
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 325
+        width: 75
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_90
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 324
+        width: 80
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_91
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 298
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_92
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 300
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_93
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 298
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_94
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 297
+        width: 61
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_95
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 300
+        width: 62
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_96
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 272
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_97
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 274
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_98
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 276
+        width: 79
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_99
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 275
+        width: 68
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_100
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 277
+        width: 74
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_101
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 238
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_102
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 241
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_103
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 243
+        width: 72
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_104
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 246
+        width: 62
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_105
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 250
+        width: 77
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_106
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 219
+        width: 97
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_107
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 196
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_108
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 196
+        width: 92
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_109
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 196
+        width: 95
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_110
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 196
+        width: 94
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_111
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 196
+        width: 94
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_112
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 196
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_113
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 196
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_114
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 196
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_115
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 196
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_116
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 196
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_117
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 173
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_118
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 173
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_119
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 173
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_120
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 173
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_121
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 173
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_122
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 173
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_123
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 173
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_124
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 173
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_125
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 141
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_126
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 141
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_127
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 141
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_128
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 141
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_129
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 141
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_130
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 141
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_131
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 140
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_132
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 124
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_133
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 90
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_134
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 89
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_135
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 90
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_136
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 89
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_137
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 90
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_138
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 92
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_139
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 94
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_140
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 49
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_141
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 99
+        width: 43
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_142
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 67
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_143
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 62
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_144
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 58
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_145
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 55
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_146
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 52
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_147
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 51
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_148
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 49
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_149
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 59
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Helicopter_150
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 53
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
