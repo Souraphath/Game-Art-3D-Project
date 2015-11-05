@@ -42,14 +42,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 # Ignore everything
-/*
+
 Game-Art-3D-Project\AnimTest\Library\*
 
 # Execept for these files
-!.gitignore
-!Game-Art-3D-Project/AnimTest/Assets/
-!Game-Art-3D-Project/AnimTest/Assets/*
-!Game-Art-3D-Project/AnimTest/Assets/*/*
-!Game-Art-3D-Project/AnimTest/Assets/*/*/*
-!Game-Art-3D-Project/AnimTest/Assets/*/*/*/*
 
