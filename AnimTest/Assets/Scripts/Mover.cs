@@ -4,7 +4,7 @@ using System.Collections;
 public class Mover : MonoBehaviour {
 
 	public float speed;
-	Rigidbody rigidbody;
+	Rigidbody rigidBody;
 	public GameObject cameraObject;
 	CameraScript cameraScript;
 	public Transform target;
@@ -12,15 +12,16 @@ public class Mover : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//GameObject go = GameObject.FindGameObjectWithTag ("Player");
-		//target = go.transform;
+		GameObject go = GameObject.FindGameObjectWithTag ("Player");
+		target = go.transform;
 		//myTransform.LookAt (target);
-		rigidbody = GetComponent<Rigidbody> ();
+		rigidBody = GetComponent<Rigidbody> ();
 		//cameraScript = cameraObject.GetComponent<CameraScript>();
 		//rigidbody.velocity = transform.forward * speed;
 		//float amtToMove = 20f * Time.deltaTime;
 		//myTransform.Translate (Vector3.left * amtToMove);
-		rigidbody.velocity = Vector3.left * speed;
+		rigidBody.velocity = Vector3.left * speed;
+		//rigidBody.AddForce (transform.forward * 20);
 	}
 
 	void OnTriggerEnter(Collider other){
