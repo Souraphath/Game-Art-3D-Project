@@ -18,10 +18,17 @@ public class Mover : MonoBehaviour {
 		rigidbody = GetComponent<Rigidbody> ();
 		//cameraScript = cameraObject.GetComponent<CameraScript>();
 		//rigidbody.velocity = transform.forward * speed;
+		//float amtToMove = 20f * Time.deltaTime;
+		//myTransform.Translate (Vector3.left * amtToMove);
 		rigidbody.velocity = Vector3.left * speed;
-
 	}
-	
+
+	void OnTriggerEnter(Collider other){
+		if (other.tag == "Player" || other.tag == "Untagged") {
+			Destroy (gameObject);
+		}
+	}
+
 	// Update is called once per frame
 	void Update () {
 

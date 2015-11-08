@@ -6,7 +6,6 @@ public class ColliderScript : MonoBehaviour {
 	public GameObject shot;
 	public Transform shotSpawn;
 	public float fireRate;
-	
 	private float nextFire;
 
 	public bool playerInCollider;
