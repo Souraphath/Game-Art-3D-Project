@@ -9,9 +9,14 @@ public class Mover : MonoBehaviour {
 	CameraScript cameraScript;
 	public Transform target;
 	private Transform myTransform;
+	Player playerHealth;
+	GameObject player;
+	public int attackDamage = 10;
 
 	// Use this for initialization
 	void Start () {
+		player = GameObject.FindGameObjectWithTag ("Player");
+		playerHealth = player.GetComponent<Player> ();
 		GameObject go = GameObject.FindGameObjectWithTag ("Player");
 		target = go.transform;
 		//myTransform.LookAt (target);
@@ -25,7 +30,14 @@ public class Mover : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		if (other.tag == "Player" || other.tag == "Untagged") {
+		if (other.tag == "Player") {
+			if(playerHealth.currentHealth > 0)
+			{
+				playerHealth.TakeDamage (attackDamage);
+			}
+			Destroy (gameObject);
+		}
+		if (other.tag == "Untagged") {
 			Destroy (gameObject);
 		}
 	}
