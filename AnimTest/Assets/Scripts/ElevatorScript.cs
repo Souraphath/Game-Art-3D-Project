@@ -15,6 +15,8 @@ public class ElevatorScript : MonoBehaviour
 
     private bool isDown;
 
+    public bool continuous;
+
 	void Awake(){
         player = GameObject.FindGameObjectWithTag("Player");
         isDown = true;
@@ -32,23 +34,24 @@ public class ElevatorScript : MonoBehaviour
     }
 
     void Update() {
-        if (playerInLift)
+        if (playerInLift || continuous)
         {
             LiftActivation();
         }
 
-        if (timer >= timeToLiftStart && !playerInLift)
+        if (timer >= timeToLiftStart)
         {
-            player.transform.parent = null;
             isDown = !isDown;
             timer = 0;
         }
-
+        if(!playerInLift)
+            player.transform.parent = null;
     }
 
     void LiftActivation() {
         timer += Time.deltaTime;
-        player.transform.parent = transform;
+        if(playerInLift)
+            player.transform.parent = transform;
         if (timer <= timeToLiftStart) {
             if (isDown)
             {
