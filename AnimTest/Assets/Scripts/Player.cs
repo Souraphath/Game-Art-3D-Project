@@ -4,9 +4,6 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-	public int startingHealth = 100;
-	public int currentHealth;
-	public Slider healthSlider;
 	public float moveSpeed = 5f;
 	public GameObject cameraObject;
 	CameraScript cameraScript;
@@ -14,22 +11,25 @@ public class Player : MonoBehaviour
 	Animator anim;
 	
 	public CharacterController cc;
-	
-	bool damaged;
 	float forwardSpeed;
 	float sideSpeed=0f;
 	float verticalVelocity;
 	float jumpSpeed = 7.9f;
 	bool secondjump = false;
-	
+	bool isground;
 	void Start()
 	{
 		//Cursor.visible = false;
 		cc = GetComponent<CharacterController>();
 		cameraScript = cameraObject.GetComponent<CameraScript>();
 		anim = GetComponent<Animator>();
-		currentHealth = startingHealth;
-		healthSlider.value = startingHealth;
+
+	}
+	void LateUpdate(){
+		if (cc.isGrounded)
+			isground = true;
+		else
+			isground = false;
 	}
 	void Update()
 	{
@@ -48,28 +48,28 @@ public class Player : MonoBehaviour
 		else
 			forwardSpeed = Input.GetAxis("Vertical") * moveSpeed;
 		
-		if(!cc.isGrounded)
+		if(!isground)
 			verticalVelocity += Physics.gravity.y *1.5f* Time.deltaTime;
 		
-		if (cc.isGrounded) {
+		if (isground) {
 			anim.SetBool("Jump",false);
 			anim.SetBool("SecondJump",false);
 			verticalVelocity=0;
 			anim.SetBool ("Falling",false);
 		}
 		
-		if (cc.isGrounded && Input.GetButtonDown("Jump")){
+		if (isground && Input.GetButtonDown ("Jump")) {
 			verticalVelocity = jumpSpeed;
-			anim.SetBool("Jump",true);
-			secondjump=true;
-		}
-		else if(secondjump==true&&Input.GetButtonDown("Jump")){
+			anim.SetBool ("Jump", true);
+			secondjump = true;
+		} else if (secondjump == true && Input.GetButtonDown ("Jump")) {
 			verticalVelocity = 0;
 			verticalVelocity = jumpSpeed;
-			anim.SetBool("SecondJump",true);
-			secondjump=false;
-		}else if(!cc.isGrounded&&verticalVelocity<-2)
-			anim.SetBool ("Falling",true);
+			anim.SetBool ("SecondJump", true);
+			secondjump = false;
+		} else if (!cc.isGrounded && verticalVelocity < -2) {
+			anim.SetBool ("Falling", true);
+		}
 		
 		Vector3 velocity = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
 		velocity = transform.rotation * velocity;
@@ -87,52 +87,14 @@ public class Player : MonoBehaviour
 			anim.SetFloat("Walk", Mathf.Abs(forwardSpeed));
 		
 		cc.Move(velocity * Time.deltaTime);
-		if(Input.GetButtonDown("Fire1"))
-			anim.SetBool("Slash",true);
-		if(Input.GetButtonDown("Fire2"))
-			anim.SetBool("Shoot",true);
-		if (Input.GetButtonUp ("Fire1"))
-			anim.SetBool ("Slash", false);
-		if (Input.GetButtonUp ("Fire2"))
-			anim.SetBool ("Shoot", false);
-		if ( Input.GetKeyDown (KeyCode.LeftShift)&&cc.isGrounded) {
+		if ( Input.GetKeyDown (KeyCode.LeftShift)&&isground) {
 			cc.Move(velocity * Time.deltaTime*5);
 			anim.SetTrigger("Dash");
 		}
-		if (damaged) {
-			anim.SetTrigger("Damaged");
-		}
-		damaged = false;
+
 		if(transform.position.y <= -20) {
 			Application.LoadLevel(Application.loadedLevel);
 		}
 	}
-	public void TakeDamage (int amount)
-	{
-		damaged = true;
-		
-		currentHealth -= amount;
-		
-		healthSlider.value = currentHealth;
-		
-		
-		//		if(currentHealth <= 0 && !isDead)
-		//		{
-		//			Death ();
-		//		}
-	}
-	//	void Death ()
-	//	{
-	//		isDead = true;
-	//		
-	//		//       playerShooting.DisableEffects ();
-	//		
-	//		anim.SetTrigger ("IsDead");
-	//		
-	//		playerAudio.clip = deathClip;
-	//		playerAudio.Play ();
-	//		
-	//		playerMovement.enabled = false;
-	//		//      playerShooting.enabled = false;
-	//	}
+
 }

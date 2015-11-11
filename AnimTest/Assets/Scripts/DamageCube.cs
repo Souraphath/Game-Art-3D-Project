@@ -11,6 +11,5 @@ public class DamageCube: MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other) {
 		if (other.tag == "Player") Destroy(gameObject);
-		play.TakeDamage (10);
 	}
 }

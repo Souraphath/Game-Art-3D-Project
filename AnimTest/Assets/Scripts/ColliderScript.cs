@@ -31,6 +31,7 @@ public class ColliderScript : MonoBehaviour {
 				Instantiate (shot, shotSpawn.position, tempQuat);
 			}
 		}
+
 	}
 
 	void OnTriggerEnter(Collider other){

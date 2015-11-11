@@ -29,15 +29,6 @@ public class HelicopterScript : MonoBehaviour {
 		}
 	}
 
-	/*void OnTriggerEnter(Collider other){
-		if (other.tag == "Player") {
-			anim.SetTrigger ("isPlayer");
-		}
-	}
 
-	void OnTriggerExit(Collider other){
-		if (other.tag == "Player") {
-			anim.SetTrigger ("isPlayer");
-		}
-	}*/
+
 }

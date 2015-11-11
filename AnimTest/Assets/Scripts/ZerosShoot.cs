@@ -2,9 +2,12 @@
 using System.Collections;
 
 public class ZerosShoot : MonoBehaviour {
-	public float dmgpershot;
-	float speed;
+	public Player play;
 	private Animator anim;
+	public Rigidbody shot;
+	public Transform shotspawn;
+	public float fireRate;
+	public float nextFire;
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
@@ -12,8 +15,16 @@ public class ZerosShoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown ("Fire2"))
-			anim.SetBool ("Shoot",true);
+		if (Input.GetButton ("Fire2")&&Time.time>nextFire) {
+			nextFire= Time.time+fireRate;
+			Rigidbody clone;
+			clone = Instantiate (shot,shotspawn.position,shotspawn.rotation) as Rigidbody ;
+			if(play.transform.localScale.x>0f)
+			clone.velocity = shotspawn.right * 10f;
+			if(play.transform.localScale.x<0f)
+			clone.velocity = shotspawn.right * -10f;
+			anim.SetBool ("Shoot", true);
+		}
 		if (Input.GetButtonUp ("Fire2"))
 			anim.SetBool ("Shoot",false);
 
