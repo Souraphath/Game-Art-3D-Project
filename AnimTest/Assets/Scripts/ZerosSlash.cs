@@ -16,11 +16,11 @@ public class ZerosSlash : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Rigidbody clone;
+
 		if (Input.GetButton ("Fire1") && !attacking) {
 			attacking=true;
 			attackTimer=attackCD;
-			clone = Instantiate (obj,shotspawn.position,shotspawn.rotation) as Rigidbody ;
+			Rigidbody clone = Instantiate (obj,shotspawn.position,shotspawn.rotation) as Rigidbody ;
 			anim.SetBool ("Slash", true);
 		}
 		if (attacking) {

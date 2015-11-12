@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
 	public float moveSpeed = 5f;
 	public GameObject cameraObject;
 	CameraScript cameraScript;
-	Collision col;
 	Animator anim;
 	
 	public CharacterController cc;
@@ -25,7 +24,7 @@ public class Player : MonoBehaviour
 		anim = GetComponent<Animator>();
 
 	}
-	void LateUpdate(){
+	void FixedUpdate(){
 		if (cc.isGrounded)
 			isground = true;
 		else
@@ -52,22 +51,23 @@ public class Player : MonoBehaviour
 			verticalVelocity += Physics.gravity.y *1.5f* Time.deltaTime;
 		
 		if (isground) {
+			secondjump=false;
 			anim.SetBool("Jump",false);
 			anim.SetBool("SecondJump",false);
-			verticalVelocity=0;
 			anim.SetBool ("Falling",false);
+			verticalVelocity=0;
 		}
 		
-		if (isground && Input.GetButtonDown ("Jump")) {
-			verticalVelocity = jumpSpeed;
+		if (isground && Input.GetButton ("Jump")) {
 			anim.SetBool ("Jump", true);
+			verticalVelocity = jumpSpeed;
 			secondjump = true;
 		} else if (secondjump == true && Input.GetButtonDown ("Jump")) {
 			verticalVelocity = 0;
-			verticalVelocity = jumpSpeed;
 			anim.SetBool ("SecondJump", true);
+			verticalVelocity = jumpSpeed;
 			secondjump = false;
-		} else if (!cc.isGrounded && verticalVelocity < -2) {
+		} else if (!isground && verticalVelocity < -2) {
 			anim.SetBool ("Falling", true);
 		}
 		
