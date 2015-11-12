@@ -28,14 +28,17 @@ public class Health : MonoBehaviour {
 		
 		if(currentHealth <= 0 && !isDead)
 		{
+			anim.SetBool ("IsDead",true);
 			Death ();
+			gameObject.GetComponent<Player>().canMove=false;
+			gameObject.GetComponent<ZerosShoot>().canMove=false;
+			gameObject.GetComponent<ZerosSlash>().canMove=false;
 			StartCoroutine (RestartLevel());
 		}
 	}
 	void Death ()
 	{
 		isDead = true;
-		anim.SetBool ("IsDead",true);
 		par.enableEmission = true;
 	}
 	IEnumerator RestartLevel(){
