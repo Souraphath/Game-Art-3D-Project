@@ -9,9 +9,13 @@ public class ZerosShoot : MonoBehaviour {
 	public float fireRate;
 	public float nextFire;
 	public bool canMove=false;
+	public bool gun=false;
+	public ZerosSlash z;
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
+		StartCoroutine (StartDelay());
+		z.GetComponent<ZerosSlash> ();
 	}
 	IEnumerator StartDelay(){
 		yield return new WaitForSeconds (2f);
@@ -21,7 +25,8 @@ public class ZerosShoot : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (canMove == true) {
-			if (Input.GetButton ("Fire2") && Time.time > nextFire && !Input.GetButton ("Fire1")) {
+			if (Input.GetButton ("Fire2") && Time.time > nextFire && z.sword==false) {
+				gun=true;
 				nextFire = Time.time + fireRate;
 				Rigidbody clone;
 				clone = Instantiate (shot, shotspawn.position, shotspawn.rotation) as Rigidbody;
@@ -31,9 +36,10 @@ public class ZerosShoot : MonoBehaviour {
 					clone.velocity = shotspawn.right * -10f;
 				anim.SetBool ("Shoot", true);
 			}
-			if (Input.GetButtonUp ("Fire2"))
+			if (Input.GetButtonUp ("Fire2")){
+				gun=false;
 				anim.SetBool ("Shoot", false);
-
+			}
 		}
 	}
 }

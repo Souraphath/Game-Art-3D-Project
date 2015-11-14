@@ -9,20 +9,24 @@ public class ZerosSlash : MonoBehaviour {
 	float attackTimer =0;
 	float attackCD=0.4f;
 	public bool canMove=false;
+	public bool sword=false;
+	public ZerosShoot z;
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
-
+		StartCoroutine (StartDelay());
+		z.GetComponent<ZerosShoot> ();
 	}
 	IEnumerator StartDelay(){
 		yield return new WaitForSeconds (2f);
 		canMove = true;
-		StartCoroutine (StartDelay());
+
 	}
 	// Update is called once per frame
 	void Update () {
 		if (canMove == true) {
-			if (Input.GetButton ("Fire1") && !attacking && !Input.GetButton ("Fire2")) {
+			if (Input.GetButton ("Fire1") && !attacking && z.gun==false) {
+				sword=true;
 				attacking = true;
 				attackTimer = attackCD;
 				Rigidbody clone = Instantiate (obj, shotspawn.position, shotspawn.rotation) as Rigidbody;
@@ -35,8 +39,10 @@ public class ZerosSlash : MonoBehaviour {
 					attacking = false;
 				}
 			}
-			if (Input.GetButtonUp ("Fire1"))
+			if (Input.GetButtonUp ("Fire1")){
+				sword=false;
 				anim.SetBool ("Slash", false);
+			}
 		}
 		
 	}

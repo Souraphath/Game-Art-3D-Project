@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 		anim = GetComponent<Animator>();
 		StartCoroutine (StartDelay());
 	}
-	void FixedUpdate(){
+	void Update(){
 		if (cc.isGrounded)
 			isground = true;
 		else
@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
 		yield return new WaitForSeconds (2f);
 		canMove = true;
 	}
-	void Update()
+	void LateUpdate()
 	{
 		if (canMove == true) {
 			transform.rotation = Quaternion.Euler (0, cameraObject.GetComponent<CameraScript> ().curYRot, 0);
@@ -48,16 +48,16 @@ public class Player : MonoBehaviour
 				transform.position = newPos;
 			} else
 				forwardSpeed = Input.GetAxis ("Vertical") * moveSpeed;
-			if (!isground)
+			if (isground==false)
 				verticalVelocity += Physics.gravity.y * 1.5f * Time.deltaTime;
-			if (isground) {
+			if (isground==true) {
 				secondjump = false;
 				anim.SetBool ("Jump", false);
 				anim.SetBool ("SecondJump", false);
 				anim.SetBool ("Falling", false);
 				verticalVelocity = 0;
 			}
-			if (isground && Input.GetButton ("Jump")) {
+			if (isground==true && Input.GetButtonDown ("Jump")) {
 				anim.SetBool ("Jump", true);
 				verticalVelocity = jumpSpeed;
 				secondjump = true;
@@ -66,9 +66,10 @@ public class Player : MonoBehaviour
 				anim.SetBool ("SecondJump", true);
 				verticalVelocity = jumpSpeed;
 				secondjump = false;
-			} else if (!isground && verticalVelocity < -2) {
+				print (secondjump+" "+isground);
+			} if (isground==false && verticalVelocity < -2) {
 				anim.SetBool ("Falling", true);
-				secondjump=true;
+				//secondjump=true;
 			}
 		
 			Vector3 velocity = new Vector3 (sideSpeed, verticalVelocity, forwardSpeed);
