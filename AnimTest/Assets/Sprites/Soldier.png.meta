@@ -1,0 +1,2508 @@
+fileFormatVersion: 2
+guid: 8724eed5abfb36b4e9d682da123caee5
+timeCreated: 1447549704
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Soldier_0
+    21300002: Soldier_1
+    21300004: Soldier_2
+    21300006: Soldier_3
+    21300008: Soldier_4
+    21300010: Soldier_5
+    21300012: Soldier_6
+    21300014: Soldier_7
+    21300016: Soldier_8
+    21300018: Soldier_9
+    21300020: Soldier_10
+    21300022: Soldier_11
+    21300024: Soldier_12
+    21300026: Soldier_13
+    21300028: Soldier_14
+    21300030: Soldier_15
+    21300032: Soldier_16
+    21300034: Soldier_17
+    21300036: Soldier_18
+    21300038: Soldier_19
+    21300040: Soldier_20
+    21300042: Soldier_21
+    21300044: Soldier_22
+    21300046: Soldier_23
+    21300048: Soldier_24
+    21300050: Soldier_25
+    21300052: Soldier_26
+    21300054: Soldier_27
+    21300056: Soldier_28
+    21300058: Soldier_29
+    21300060: Soldier_30
+    21300062: Soldier_31
+    21300064: Soldier_32
+    21300066: Soldier_33
+    21300068: Soldier_34
+    21300070: Soldier_35
+    21300072: Soldier_36
+    21300074: Soldier_37
+    21300076: Soldier_38
+    21300078: Soldier_39
+    21300080: Soldier_40
+    21300082: Soldier_41
+    21300084: Soldier_42
+    21300086: Soldier_43
+    21300088: Soldier_44
+    21300090: Soldier_45
+    21300092: Soldier_46
+    21300094: Soldier_47
+    21300096: Soldier_48
+    21300098: Soldier_49
+    21300100: Soldier_50
+    21300102: Soldier_51
+    21300104: Soldier_52
+    21300106: Soldier_53
+    21300108: Soldier_54
+    21300110: Soldier_55
+    21300112: Soldier_56
+    21300114: Soldier_57
+    21300116: Soldier_58
+    21300118: Soldier_59
+    21300120: Soldier_60
+    21300122: Soldier_61
+    21300124: Soldier_62
+    21300126: Soldier_63
+    21300128: Soldier_64
+    21300130: Soldier_65
+    21300132: Soldier_66
+    21300134: Soldier_67
+    21300136: Soldier_68
+    21300138: Soldier_69
+    21300140: Soldier_70
+    21300142: Soldier_71
+    21300144: Soldier_72
+    21300146: Soldier_73
+    21300148: Soldier_74
+    21300150: Soldier_75
+    21300152: Soldier_76
+    21300154: Soldier_77
+    21300156: Soldier_78
+    21300158: Soldier_79
+    21300160: Soldier_80
+    21300162: Soldier_81
+    21300164: Soldier_82
+    21300166: Soldier_83
+    21300168: Soldier_84
+    21300170: Soldier_85
+    21300172: Soldier_86
+    21300174: Soldier_87
+    21300176: Soldier_88
+    21300178: Soldier_89
+    21300180: Soldier_90
+    21300182: Soldier_91
+    21300184: Soldier_92
+    21300186: Soldier_93
+    21300188: Soldier_94
+    21300190: Soldier_95
+    21300192: Soldier_96
+    21300194: Soldier_97
+    21300196: Soldier_98
+    21300198: Soldier_99
+    21300200: Soldier_100
+    21300202: Soldier_101
+    21300204: Soldier_102
+    21300206: Soldier_103
+    21300208: Soldier_104
+    21300210: Soldier_105
+    21300212: Soldier_106
+    21300214: Soldier_107
+    21300216: Soldier_108
+    21300218: Soldier_109
+    21300220: Soldier_110
+    21300222: Soldier_111
+    21300224: Soldier_112
+    21300226: Soldier_113
+    21300228: Soldier_114
+    21300230: Soldier_115
+    21300232: Soldier_116
+    21300234: Soldier_117
+    21300236: Soldier_118
+    21300238: Soldier_119
+    21300240: Soldier_120
+    21300242: Soldier_121
+    21300244: Soldier_122
+    21300246: Soldier_123
+    21300248: Soldier_124
+    21300250: Soldier_125
+    21300252: Soldier_126
+    21300254: Soldier_127
+    21300256: Soldier_128
+    21300258: Soldier_129
+    21300260: Soldier_130
+    21300262: Soldier_131
+    21300264: Soldier_132
+    21300266: Soldier_133
+    21300268: Soldier_134
+    21300270: Soldier_135
+    21300272: Soldier_136
+    21300274: Soldier_137
+    21300276: Soldier_138
+    21300278: Soldier_139
+    21300280: Soldier_140
+    21300282: Soldier_141
+    21300284: Soldier_142
+    21300286: Soldier_143
+    21300288: Soldier_144
+    21300290: Soldier_145
+    21300292: Soldier_146
+    21300294: Soldier_147
+    21300296: Soldier_148
+    21300298: Soldier_149
+    21300300: Soldier_150
+    21300302: Soldier_151
+    21300304: Soldier_152
+    21300306: Soldier_153
+    21300308: Soldier_154
+    21300310: Soldier_155
+    21300312: Soldier_156
+    21300314: Soldier_157
+    21300316: Soldier_158
+    21300318: Soldier_159
+    21300320: Soldier_160
+    21300322: Soldier_161
+    21300324: Soldier_162
+    21300326: Soldier_163
+    21300328: Soldier_164
+    21300330: Soldier_165
+    21300332: Soldier_166
+    21300334: Soldier_167
+    21300336: Soldier_168
+    21300338: Soldier_169
+    21300340: Soldier_170
+    21300342: Soldier_171
+    21300344: Soldier_172
+    21300346: Soldier_173
+    21300348: Soldier_174
+    21300350: Soldier_175
+    21300352: Soldier_176
+    21300354: Soldier_177
+    21300356: Soldier_178
+    21300358: Soldier_179
+    21300360: Soldier_180
+    21300362: Soldier_181
+    21300364: Soldier_182
+    21300366: Soldier_183
+    21300368: Soldier_184
+    21300370: Soldier_185
+    21300372: Soldier_186
+    21300374: Soldier_187
+    21300376: Soldier_188
+    21300378: Soldier_189
+    21300380: Soldier_190
+    21300382: Soldier_191
+    21300384: Soldier_192
+    21300386: Soldier_193
+    21300388: Soldier_194
+    21300390: Soldier_195
+    21300392: Soldier_196
+    21300394: Soldier_197
+    21300396: Soldier_198
+    21300398: Soldier_199
+    21300400: Soldier_200
+    21300402: Soldier_201
+    21300404: Soldier_202
+    21300406: Soldier_203
+    21300408: Soldier_204
+    21300410: Soldier_205
+    21300412: Soldier_206
+    21300414: Soldier_207
+    21300416: Soldier_208
+    21300418: Soldier_209
+    21300420: Soldier_210
+    21300422: Soldier_211
+    21300424: Soldier_212
+    21300426: Soldier_213
+    21300428: Soldier_214
+    21300430: Soldier_215
+    21300432: Soldier_216
+    21300434: Soldier_217
+    21300436: Soldier_218
+    21300438: Soldier_219
+    21300440: Soldier_220
+    21300442: Soldier_221
+    21300444: Soldier_222
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Soldier_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1678
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1678
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1678
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1678
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1678
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1678
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1678
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1678
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1633
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1633
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1633
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1633
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_12
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1633
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1582
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1582
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1582
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1582
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1582
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1582
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1582
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_20
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1582
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1534
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_22
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1534
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1534
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1534
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1534
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1473
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1473
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_28
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1473
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_29
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1473
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1473
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_31
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1473
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_32
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1423
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_33
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1423
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1423
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_35
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1423
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1423
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_37
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1423
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1370
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_39
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1370
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_40
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1369
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1369
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_42
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1370
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_43
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1370
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_44
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1322
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1322
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_46
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1322
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_47
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1322
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_48
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1322
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1322
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_50
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1275
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_51
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1275
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_52
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1275
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_53
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1275
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_54
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1275
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_55
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1275
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_56
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1243
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_57
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1243
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_58
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1246
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_59
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1246
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_60
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1246
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_61
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1247
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_62
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1247
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_63
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1250
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_64
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1251
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_65
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1253
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_66
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1256
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_67
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1256
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_68
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1256
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_69
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1197
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_70
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1196
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_71
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1197
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_72
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1196
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_73
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1197
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_74
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1199
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_75
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1201
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_76
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1202
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_77
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1206
+        width: 43
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1003
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_79
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1003
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_80
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1003
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_81
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1003
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_82
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1003
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_83
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1003
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_84
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1003
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1003
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_86
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1003
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_87
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1003
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 957
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_89
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 957
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_90
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 957
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_91
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 957
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_92
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 957
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_93
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 957
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_94
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 915
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_95
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 915
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_96
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 915
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_97
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 914
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_98
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 914
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_99
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 914
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_100
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 914
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_101
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 867
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_102
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 867
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_103
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 867
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 820
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 820
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_106
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 820
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_107
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 776
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_108
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 776
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_109
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 776
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_110
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 776
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 724
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_112
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 724
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_113
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 724
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_114
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 724
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 724
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_116
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 724
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_117
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 671
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_118
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 671
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_119
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 671
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_120
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 671
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_121
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 671
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_122
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 671
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_123
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 618
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_124
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 618
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_125
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 618
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_126
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 618
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_127
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 618
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_128
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 618
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_129
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_130
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 577
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_131
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 577
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_132
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 577
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_133
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 537
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_134
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 537
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_135
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 537
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_136
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 563
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_137
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 537
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_138
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 537
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_139
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 495
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_140
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 495
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_141
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 495
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_142
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 495
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_143
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 524
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_144
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 527
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_145
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 456
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_146
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 456
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_147
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 456
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_148
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 456
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_149
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 418
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_150
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 418
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 418
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_152
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 418
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_153
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 418
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_154
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 418
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_155
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 418
+        width: 40
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_156
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 418
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_157
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 379
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_158
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 379
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_159
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 379
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_160
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 379
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_161
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 379
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_162
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 369
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_163
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 379
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_164
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 368
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_165
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 379
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_166
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 396
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_167
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 379
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_169
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 301
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_170
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 290
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_171
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 366
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_172
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 289
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_173
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 352
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_174
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 288
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_175
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 348
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_176
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 348
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_177
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 294
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_178
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 320
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_179
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 317
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_180
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 322
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_181
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 301
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_182
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 301
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_183
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 310
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_184
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 293
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_185
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 305
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_186
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 295
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_187
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 298
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_188
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 302
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_189
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 295
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_190
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 221
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_191
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 221
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_192
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 277
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_193
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 221
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_194
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 280
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_195
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 221
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_196
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 221
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_197
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 220
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_198
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 151
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_199
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 151
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_200
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 136
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_201
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_202
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 139
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_203
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 65
+        width: 45
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_204
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 65
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_205
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 34
+        width: 58
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_206
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 80
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_207
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 80
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_208
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 80
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_209
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_210
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 58
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_211
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 31
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_212
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 30
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_213
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 44
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_214
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 45
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_215
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 40
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_216
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 33
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_217
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_218
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 12
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_219
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 12
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_220
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 13
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_221
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 14
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Soldier_222
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 14
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

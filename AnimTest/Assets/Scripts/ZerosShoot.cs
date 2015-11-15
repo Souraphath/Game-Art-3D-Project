@@ -11,8 +11,10 @@ public class ZerosShoot : MonoBehaviour {
 	public bool canMove=false;
 	public bool gun=false;
 	public ZerosSlash z;
+	public static int ammo;
 	// Use this for initialization
 	void Start () {
+		ammo = 10;
 		anim = GetComponent<Animator> ();
 		StartCoroutine (StartDelay());
 		z.GetComponent<ZerosSlash> ();
@@ -26,15 +28,22 @@ public class ZerosShoot : MonoBehaviour {
 	void Update () {
 		if (canMove == true) {
 			if (Input.GetButton ("Fire2") && Time.time > nextFire && z.sword==false) {
-				gun=true;
-				nextFire = Time.time + fireRate;
-				Rigidbody clone;
-				clone = Instantiate (shot, shotspawn.position, shotspawn.rotation) as Rigidbody;
-				if (play.transform.localScale.x > 0f)
-					clone.velocity = shotspawn.right * 10f;
-				if (play.transform.localScale.x < 0f)
-					clone.velocity = shotspawn.right * -10f;
-				anim.SetBool ("Shoot", true);
+				if(ammo > 0){
+					gun=true;
+					nextFire = Time.time + fireRate;
+					Rigidbody clone;
+					clone = Instantiate (shot, shotspawn.position, shotspawn.rotation) as Rigidbody;
+					if (play.transform.localScale.x > 0f)
+						clone.velocity = shotspawn.right * 10f;
+					if (play.transform.localScale.x < 0f)
+						clone.velocity = shotspawn.right * -10f;
+					anim.SetBool ("Shoot", true);
+					ammo--;
+				}
+				else{
+					gun=true;
+					anim.SetBool ("Shoot", true);
+				}
 			}
 			if (Input.GetButtonUp ("Fire2")){
 				gun=false;
