@@ -8,7 +8,10 @@ public class Player : MonoBehaviour
 	public GameObject cameraObject;
 	CameraScript cameraScript;
 	Animator anim;
-	
+	public AfterImage after;
+	public AfterImage after1;
+	public AfterImage after2;
+	public AfterImage after3;
 	public CharacterController cc;
 	float forwardSpeed;
 	float sideSpeed=0f;
@@ -66,7 +69,6 @@ public class Player : MonoBehaviour
 				anim.SetBool ("SecondJump", true);
 				verticalVelocity = jumpSpeed;
 				secondjump = false;
-				print (secondjump+" "+isground);
 			} if (isground==false && verticalVelocity < -2) {
 				anim.SetBool ("Falling", true);
 				//secondjump=true;
@@ -91,11 +93,14 @@ public class Player : MonoBehaviour
 		
 			cc.Move (velocity * Time.deltaTime);
 			if (Input.GetKeyDown (KeyCode.LeftShift) && isground) {
+				after.Image();
+				after1.Image();
+				after2.Image();
+				after3.Image();
 				cc.Move (velocity * Time.deltaTime * 5);
 				anim.SetTrigger ("Dash");
 			}
 		}
-
 		if(transform.position.y <= -20) {
 			Application.LoadLevel(Application.loadedLevel);
 		}
