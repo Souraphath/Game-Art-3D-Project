@@ -6,13 +6,17 @@ public class SoldierScript : MonoBehaviour {
 	Animator anim;
 	GameObject cameraObj;
 	CameraScript cameraScript;
-	
+	GameObject player;
+	//Transform shotSpawn;
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
+		//shotSpawn = transform.GetChild (0);
 		cameraObj = GameObject.FindGameObjectWithTag("MainCamera");
 		cameraScript = cameraObj.GetComponent<CameraScript>();
+		player = GameObject.FindGameObjectWithTag ("Player");
 		anim.SetBool ("is2DMode", false);
+		//anim.SetBool ("isRight", false);
 	}
 	
 	// Update is called once per frame
@@ -29,6 +33,10 @@ public class SoldierScript : MonoBehaviour {
 		}
 		else
 		{
+			/*if(transform.InverseTransformPoint(player.transform.position).x < 0.0){
+				//shotSpawn.position = new Vector3(1, 0, 0);
+				anim.SetBool ("isRight", true);
+			}*/
 			anim.SetBool("is2DMode", false);
 		}
 	}
