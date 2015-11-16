@@ -42,7 +42,7 @@ public class Health : MonoBehaviour {
 		par.enableEmission = true;
 	}
 	IEnumerator RestartLevel(){
-		yield return new WaitForSeconds (5f);
+		yield return new WaitForSeconds (3f);
 		Application.LoadLevel (Application.loadedLevel);
 	}
 }

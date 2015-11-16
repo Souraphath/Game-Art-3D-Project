@@ -14,9 +14,9 @@ public class Sword : MonoBehaviour {
 			other.GetComponent<EnemyHealth> ().TakeDamage (dmg);
 			Destroy (gameObject, 0.4f);
 		} else if (other.tag == "Boundary") {
-			Destroy (gameObject);
+			Destroy (gameObject,0.4f);
 		} else if (other.tag == "Untagged") {
-			Destroy (gameObject);
+			Destroy (gameObject,0.4f);
 		}
 
 //		if (other.tag == "Untagged") {

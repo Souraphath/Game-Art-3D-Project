@@ -24,7 +24,7 @@ public class BulletScript : MonoBehaviour {
 			playerHealth.TakeDamage(attackDamage);
 			Destroy (gameObject);
 		}
-		if (other.tag == "Untagged") {
+		if (other.tag == "Untagged" || other.tag =="PlayersBullet" || other.tag == "PlayersSword") {
 			Destroy (gameObject);
 		}
 	}

@@ -21,8 +21,8 @@ public class AfterImage : MonoBehaviour {
 		if (anim.GetBool ("Jump") == true && anim.GetBool ("Falling") == false) {
 			Vector3 temp = new Vector3 (transform.localPosition.x, transform.localPosition.y - 0.0009f, 0);
 			transform.localPosition = temp;
-		} else if (anim.GetBool ("secondJump") == true) {
-			Vector3 temp = new Vector3 (transform.localPosition.x, transform.localPosition.y - 0.0009f, 0);
+		} else if (anim.GetBool ("SecondJump") == true) {
+			Vector3 temp = new Vector3 (transform.localPosition.x, transform.localPosition.y - 0.0005f, 0);
 			transform.localPosition = temp;
 		} else if (anim.GetBool ("Falling") == true && transform.localPosition.y < 0f) {
 			Vector3 temp = new Vector3 (transform.localPosition.x, transform.localPosition.y + 0.01f, 0);
