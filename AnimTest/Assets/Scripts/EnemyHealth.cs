@@ -26,7 +26,7 @@ public class EnemyHealth : MonoBehaviour {
 	void Death ()
 	{
 		isDead = true;
-		anim.SetBool ("IsDead",true);
+		//anim.SetBool ("IsDead",true);
 		Destroy (gameObject.transform.root.gameObject);
 	}
 }

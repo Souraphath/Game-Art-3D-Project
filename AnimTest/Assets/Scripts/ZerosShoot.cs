@@ -41,8 +41,8 @@ public class ZerosShoot : MonoBehaviour {
 					ammo--;
 				}
 				else{
-					gun=true;
-					anim.SetBool ("Shoot", true);
+					gun=false;
+					anim.SetBool ("Shoot", false);
 				}
 			}
 			if (Input.GetButtonUp ("Fire2")){

@@ -10,6 +10,7 @@ public class Sword : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 
 		if (other.tag == "Enemy") {
+			if(other.GetComponent<EnemyHealth>())
 			other.GetComponent<EnemyHealth> ().TakeDamage (dmg);
 			Destroy (gameObject, 0.4f);
 		} else if (other.tag == "Boundary") {

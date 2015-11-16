@@ -16,6 +16,7 @@ public class Bullet : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Enemy") {
+			if(other.GetComponent<EnemyHealth>())
 			other.GetComponent<EnemyHealth>().TakeDamage(dmgpershot);
 			anim.SetTrigger("IsDestroyed");
 			rig.velocity= Vector3.zero;

@@ -92,13 +92,14 @@ public class Player : MonoBehaviour
 				anim.SetFloat ("Walk", Mathf.Abs (forwardSpeed));
 		
 			cc.Move (velocity * Time.deltaTime);
-			if (Input.GetKeyDown (KeyCode.LeftShift) && isground) {
+			if (Input.GetKeyDown (KeyCode.LeftShift) && isground&&anim.GetBool("Dash")==false) {
+				anim.SetTrigger ("Dash");
 				after.Image();
 				after1.Image();
 				after2.Image();
 				after3.Image();
-				cc.Move (velocity * Time.deltaTime * 5);
-				anim.SetTrigger ("Dash");
+				Vector3 temp= new Vector3(velocity.x * 5f,velocity.y,velocity.z);
+				cc.Move (temp*Time.deltaTime );
 			}
 		}
 		if(transform.position.y <= -20) {
