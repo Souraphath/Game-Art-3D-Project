@@ -16,6 +16,7 @@ public class ElevatorScript : MonoBehaviour
     private bool isDown;
 
     public bool continuous;
+	public bool horizontal;
 
 	void Awake(){
         player = GameObject.FindGameObjectWithTag("Player");
@@ -55,10 +56,16 @@ public class ElevatorScript : MonoBehaviour
         if (timer <= timeToLiftStart) {
             if (isDown)
             {
-                transform.Translate(Vector3.up * liftSpeed * Time.deltaTime);
+				if(horizontal)
+					transform.Translate(-1 * Vector3.left * liftSpeed * Time.deltaTime);
+				else
+                	transform.Translate(Vector3.up * liftSpeed * Time.deltaTime);
             }
             else {
-                transform.Translate(-1 * Vector3.up * liftSpeed * Time.deltaTime);
+				if(horizontal)
+					transform.Translate(Vector3.left * liftSpeed * Time.deltaTime);
+				else
+					transform.Translate(-1 * Vector3.up * liftSpeed * Time.deltaTime);
             }
         }
         

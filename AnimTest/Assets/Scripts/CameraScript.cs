@@ -25,13 +25,10 @@ public class CameraScript : MonoBehaviour
 
     float zPos;
 
-    Vector3 parentLastPos;
-
     Camera cameraRef;
 
     void Awake()
     {
-        parentLastPos = transform.parent.position;
         in2DMode = true;
         zPos = -3f;
         transform.localPosition = new Vector3(0, -0.225f, zPos);
@@ -40,34 +37,29 @@ public class CameraScript : MonoBehaviour
 
     void LateUpdate()
     {
-        if (Input.GetButtonDown("Switch")) {
-            in2DMode = !in2DMode;
-            if (in2DMode) {
-                zPos = Mathf.SmoothDamp(-3f, -2, ref yRotV, 2);
-                cameraRef.orthographic = true;
-            } else {
-                zPos = Mathf.SmoothDamp(-2, -3f, ref yRotV, 2);
-                cameraRef.orthographic = false;
-            }
-        }
-        parentLastPos = transform.parent.position;
-
-        // yRot += Input.GetAxis("Mouse X") * lookSensitivity * currentAimRatio;
+        if (Input.GetButtonDown ("Switch")) {
+			in2DMode = !in2DMode;
+			if (in2DMode) {
+				zPos = Mathf.SmoothDamp (-3f, -2, ref yRotV, 2);
+				cameraRef.orthographic = true;
+			} else {
+				zPos = Mathf.SmoothDamp (-2, -3f, ref yRotV, 2);
+				cameraRef.orthographic = false;
+			}
+		}
 
         curXRot = Mathf.SmoothDamp(curXRot, xRot, ref xRotV, lookSmoothDamp);
 
         if (in2DMode) {
             curYRot = Mathf.SmoothDamp(curYRot, 0, ref yRotV, lookSmoothDamp);
-            xRot = 0;
             transform.localPosition = new Vector3(0, -0.225f, zPos);
         } else {
             transform.localPosition = new Vector3(0, 0, zPos);
             curYRot = Mathf.SmoothDamp(curYRot, 90 + yRot, ref yRotV, lookSmoothDamp);
-            // xRot -= Input.GetAxis("Mouse Y") * lookSensitivity * currentAimRatio;
-            xRot = Mathf.Clamp(xRot, -80, 60);
+
         }
 
-        transform.rotation = Quaternion.Euler(curXRot, curYRot, 0);
+        transform.rotation = Quaternion.Euler(0, curYRot, 0);
 
         if (transform.position.y <= -15)
             transform.position = new Vector3(transform.position.x, -15f, transform.position.z);

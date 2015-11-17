@@ -18,10 +18,12 @@ public class Player : MonoBehaviour
 	float sideSpeed=0f;
 	float verticalVelocity;
 	float jumpSpeed = 7.9f;
-	bool secondjump = false;
 	bool isground;
 	bool in2DMode;
-	public bool canMove=false;
+	public bool canMove;
+
+	int jump = 2;
+
 	void Start()
 	{
 		//Cursor.visible = false;
@@ -45,7 +47,10 @@ public class Player : MonoBehaviour
 
 	void LateUpdate()
 	{
-		if (canMove == true) {
+		float playerDiff = cameraObject.transform.position.x - transform.position.x;
+		if (Mathf.Abs (playerDiff) > 11)
+			transform.Translate (Vector3.right * 1.5f * Time.deltaTime);
+		if (canMove) {
 			if(cameraObject.GetComponent<CameraScript>()){
 				transform.rotation = Quaternion.Euler (0, cameraObject.GetComponent<CameraScript> ().curYRot, 0);
 				in2DMode = cameraScript.in2DMode;
@@ -58,29 +63,29 @@ public class Player : MonoBehaviour
 				transform.position = newPos;
 			} else
 				forwardSpeed = Input.GetAxis ("Vertical") * moveSpeed;
-			if (isground==false)
+			if (!isground)
 				verticalVelocity += Physics.gravity.y * 1.5f * Time.deltaTime;
-			if (isground==true) {
-				secondjump = false;
+			if (isground) {
+				jump = 2;
 				anim.SetBool ("Jump", false);
 				anim.SetBool ("SecondJump", false);
 				anim.SetBool ("Falling", false);
 				verticalVelocity = 0;
 			}
-			if (isground==true && Input.GetButtonDown ("Jump")) {
+			if (jump == 2 && Input.GetButtonDown ("Jump")) {
 				anim.SetBool ("Jump", true);
 				verticalVelocity = jumpSpeed;
-				secondjump = true;
-			} else if (secondjump == true && Input.GetButtonDown ("Jump")) {
+				jump-=1;
+			} else if (jump == 1 && Input.GetButtonDown ("Jump")) {
 				verticalVelocity = 0;
 				anim.SetBool ("SecondJump", true);
 				verticalVelocity = jumpSpeed;
-				secondjump = false;
+				jump -= 1;
 			} if (isground==false && verticalVelocity < -2) {
 				anim.SetBool ("Falling", true);
 				//secondjump=true;
 			}
-		
+
 			Vector3 velocity = new Vector3 (sideSpeed, verticalVelocity, forwardSpeed);
 			velocity = transform.rotation * velocity;
 			if (Input.GetAxis ("Horizontal") < -0.1f) {
@@ -110,7 +115,7 @@ public class Player : MonoBehaviour
 				cc.Move (temp*Time.deltaTime );
 			}
 		}
-		if(transform.position.y <= -20) {
+		if(transform.position.y <= -20 || playerDiff >= 13) {
 			Application.LoadLevel(Application.loadedLevel);
 		}
 	}
