@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
 	float jumpSpeed = 7.9f;
 	bool secondjump = false;
 	bool isground;
+	bool in2DMode;
 	public bool canMove=false;
 	void Start()
 	{
@@ -29,21 +30,26 @@ public class Player : MonoBehaviour
 		anim = GetComponent<Animator>();
 		StartCoroutine (StartDelay());
 	}
+
 	void Update(){
 		if (cc.isGrounded)
 			isground = true;
 		else
 			isground = false;
 	}
+
 	IEnumerator StartDelay(){
 		yield return new WaitForSeconds (2f);
 		canMove = true;
 	}
+
 	void LateUpdate()
 	{
 		if (canMove == true) {
-			transform.rotation = Quaternion.Euler (0, cameraObject.GetComponent<CameraScript> ().curYRot, 0);
-			bool in2DMode = cameraScript.in2DMode;
+			if(cameraObject.GetComponent<CameraScript>()){
+				transform.rotation = Quaternion.Euler (0, cameraObject.GetComponent<CameraScript> ().curYRot, 0);
+				in2DMode = cameraScript.in2DMode;
+			}
 			// movement
 			if (in2DMode) {
 				forwardSpeed = 0;
