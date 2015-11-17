@@ -13,7 +13,7 @@ public class SoldierShootScript : MonoBehaviour {
 	int clipSize;
 	public int maxClipSize;
 	
-	CameraScript cameraScript;
+    CameraScript cameraScript;
 	
 	public bool playerInCollider;
 	

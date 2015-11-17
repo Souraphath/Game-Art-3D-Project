@@ -9,8 +9,8 @@ public class ZerosSlash : MonoBehaviour {
 	public Transform shotspawn2;
 	public Transform shotspawn3;
 	bool attacking = false;
-	float attackTimer =0;
-	float attackCD=0.5f;
+	float attackTimer =0f;
+	float attackCD=0.45f;
 	public bool canMove=false;
 	public bool sword=false;
 	public ZerosShoot z;
@@ -30,11 +30,10 @@ public class ZerosSlash : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (canMove == true&&anim.GetBool("IsDead")==false) {
-			if (Input.GetButton ("Fire1") && !attacking && z.gun==false) {
+			if (Input.GetButton ("Fire1") && Time.time >attackTimer && z.gun==false) {
 				Rigidbody clone;
 				sword=true;
-				attacking = true;
-				attackTimer = attackCD;
+				attackTimer = Time.time+attackCD;
 				if(anim.GetBool("SecondJump")==true){
 				SoundManager.instance.PlaySingle1(SlashRoll);
 				clone = Instantiate (obj, shotspawn.position, shotspawn.rotation) as Rigidbody;
@@ -47,13 +46,7 @@ public class ZerosSlash : MonoBehaviour {
 				}
 				anim.SetBool ("Slash", true);
 			}
-			if (attacking) {
-				if (attackTimer > 0) {
-					attackTimer -= Time.deltaTime;
-				} else {
-					attacking = false;
-				}
-			}
+		
 			if (Input.GetButtonUp ("Fire1")){
 				sword=false;
 				anim.SetBool ("Slash", false);
