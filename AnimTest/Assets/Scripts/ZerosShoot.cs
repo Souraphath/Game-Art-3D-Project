@@ -12,6 +12,7 @@ public class ZerosShoot : MonoBehaviour {
 	public bool gun=false;
 	public ZerosSlash z;
 	public static int ammo;
+	public AudioClip Shoot;
 	// Use this for initialization
 	void Start () {
 		ammo = 10;
@@ -26,11 +27,12 @@ public class ZerosShoot : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		if (canMove == true) {
+		if (canMove == true&&anim.GetBool("IsDead")==false) {
 			if (Input.GetButton ("Fire2") && Time.time > nextFire && z.sword==false) {
 				if(ammo > 0){
 					gun=true;
 					nextFire = Time.time + fireRate;
+					SoundManager.instance.PlaySingle1(Shoot);
 					Rigidbody clone;
 					clone = Instantiate (shot, shotspawn.position, shotspawn.rotation) as Rigidbody;
 					if (play.transform.localScale.x > 0f)

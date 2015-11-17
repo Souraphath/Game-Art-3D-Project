@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
 	public AfterImage after2;
 	public AfterImage after3;
 	public CharacterController cc;
+	public AudioClip Dash;
 	float forwardSpeed;
 	float sideSpeed=0f;
 	float verticalVelocity;
@@ -98,6 +99,7 @@ public class Player : MonoBehaviour
 				after1.Image();
 				after2.Image();
 				after3.Image();
+				SoundManager.instance.PlaySingle(Dash);
 				Vector3 temp= new Vector3(velocity.x * 5f,velocity.y,velocity.z);
 				cc.Move (temp*Time.deltaTime );
 			}

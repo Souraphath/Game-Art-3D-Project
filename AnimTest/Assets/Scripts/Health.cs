@@ -8,6 +8,8 @@ public class Health : MonoBehaviour {
 	public Slider healthSlider;
 	bool isDead=false;
 	public Animator anim;
+	public AudioClip Hurt;
+	public AudioClip Die;
 	// Use this for initialization
 	void Start () {
 		anim.GetComponent<Animator> ();
@@ -20,12 +22,13 @@ public class Health : MonoBehaviour {
 	// Update is called once per frame
 	public void TakeDamage (int amount)
 	{
-		gameObject.GetComponent<Animation>().Play("Flash_Red");
-		currentHealth -= amount;
-		
-		healthSlider.value = currentHealth;
-		
-		
+		if (currentHealth > 0) {
+			gameObject.GetComponent<Animation> ().Play ("Flash_Red");
+			anim.SetTrigger ("Damaged");
+			SoundManager.instance.PlaySingle (Hurt);
+			currentHealth -= amount;
+			healthSlider.value = currentHealth;
+		}
 		if(currentHealth <= 0 && !isDead)
 		{
 			anim.SetBool ("IsDead",true);
@@ -39,6 +42,7 @@ public class Health : MonoBehaviour {
 	void Death ()
 	{
 		isDead = true;
+		SoundManager.instance.PlaySingle (Die);
 		par.enableEmission = true;
 	}
 	IEnumerator RestartLevel(){
