@@ -47,9 +47,6 @@ public class Player : MonoBehaviour
 
 	void LateUpdate()
 	{
-		float playerDiff = cameraObject.transform.position.x - transform.position.x;
-		if (Mathf.Abs (playerDiff) > 11)
-			transform.Translate (Vector3.right * 1.5f * Time.deltaTime);
 		if (canMove) {
 			if(cameraObject.GetComponent<CameraScript>()){
 				transform.rotation = Quaternion.Euler (0, cameraObject.GetComponent<CameraScript> ().curYRot, 0);
@@ -115,7 +112,7 @@ public class Player : MonoBehaviour
 				cc.Move (temp*Time.deltaTime );
 			}
 		}
-		if(transform.position.y <= -20 || playerDiff >= 13) {
+		if(transform.position.y <= -20) {
 			Application.LoadLevel(Application.loadedLevel);
 		}
 	}

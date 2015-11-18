@@ -15,13 +15,18 @@ public class ZerosShoot : MonoBehaviour {
 
 	public AudioClip Shoot;
 	AudioSource soundSource;
-	
+
+	private GUIStyle style;
+
 	void Start () {
 		ammo = 10;
 		anim = GetComponent<Animator> ();
 		StartCoroutine (StartDelay());
 		swordScript = GetComponent<ZerosSlash> ();
 		soundSource = GetComponent<AudioSource>();
+		style = new GUIStyle ();
+		style.normal.textColor = Color.cyan;
+		style.fontSize = 20;
 	}
 	IEnumerator StartDelay(){
 		yield return new WaitForSeconds (2f);
@@ -29,6 +34,11 @@ public class ZerosShoot : MonoBehaviour {
 		StartCoroutine (StartDelay());
 		soundSource.clip = Shoot;
 	}
+
+	void OnGUI(){
+		GUI.Label (new Rect(new Vector2(60, Screen.height - 65), new Vector2(100,40)), "Bullets: " + ammo, style);
+	}
+
 	// Update is called once per frame
 	void Update () {
 		if (canMove && anim.GetBool("IsDead")==false) {
