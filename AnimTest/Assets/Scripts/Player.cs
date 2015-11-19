@@ -116,5 +116,13 @@ public class Player : MonoBehaviour
 			Application.LoadLevel(Application.loadedLevel);
 		}
 	}
+	void OnTriggerEnter(Collider other) {
+		if (other.tag == "Portal") {
+			gameObject.GetComponent<Player> ().canMove = false;
+			gameObject.GetComponent<ZerosShoot> ().canMove = false;
+			gameObject.GetComponent<ZerosSlash> ().canMove = false;
+			anim.SetTrigger ("TeleportOut");
+		}
+	}
 
 }

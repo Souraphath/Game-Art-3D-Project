@@ -24,8 +24,11 @@ public class Health : MonoBehaviour {
 	{
 		if (currentHealth > 0) {
 			gameObject.GetComponent<Animation> ().Play ("Flash_Red");
-			anim.SetTrigger ("Damaged");
-			SoundManager.instance.PlaySingle (Hurt);
+			if(amount>0){
+				anim.SetTrigger ("Damaged");
+				gameObject.GetComponent<Animation>().Play();
+				SoundManager.instance.PlaySingle (Hurt);
+			}
 			currentHealth -= amount;
 			healthSlider.value = currentHealth;
 		}

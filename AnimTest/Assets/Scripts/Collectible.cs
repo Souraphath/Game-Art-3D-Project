@@ -10,6 +10,8 @@ public class Collectible : MonoBehaviour {
 	}
 
     void OnTriggerEnter(Collider other) {
+		if(gameObject.tag=="Heart"&&other.tag=="Player")
+			other.GetComponent<Health>().TakeDamage(-10);
         if (other.tag == "Player") Destroy(gameObject);
     }
 }
