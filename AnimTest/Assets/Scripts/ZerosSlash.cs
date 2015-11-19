@@ -47,8 +47,6 @@ public class ZerosSlash : MonoBehaviour {
 					clone = Instantiate (obj, shotspawn3.position, shotspawn3.rotation) as Rigidbody;
 				}else{
 					clone = Instantiate (obj, shotspawn.position, shotspawn.rotation) as Rigidbody;
-					soundSource.clip = Slash;
-					soundSource.Play();
 				}
 				anim.SetBool ("Slash", true);
 			}
@@ -59,5 +57,9 @@ public class ZerosSlash : MonoBehaviour {
 			}
 		}
 		
+	}
+	public void PlaySound(){
+		soundSource.clip = Slash;
+		soundSource.Play();
 	}
 }
