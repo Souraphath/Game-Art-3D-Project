@@ -1,17 +1,17 @@
 fileFormatVersion: 2
 guid: 4f1357f7e6e15a247ad5d3d8debeb15b
-timeCreated: 1447970644
+timeCreated: 1448396320
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Crono_0
-    21300002: Crono_1
-    21300004: Crono_2
-    21300006: Crono_3
-    21300008: Crono_4
-    21300010: Crono_5
-    21300012: Crono_6
-    21300014: Crono_7
+    21300000: Front_view_Idal1
+    21300002: Front_view_Idal2
+    21300004: Front_view_Idal3
+    21300006: Front_view_Walk1
+    21300008: Front_view_Walk2
+    21300010: Front_view_Walk3
+    21300012: Front_view_Walk4
+    21300014: Front_view_Walk5
     21300016: Crono_8
     21300018: Crono_9
     21300020: Crono_10
@@ -19,28 +19,28 @@ TextureImporter:
     21300024: Crono_12
     21300026: Crono_13
     21300028: Crono_14
-    21300030: Crono_15
-    21300032: Crono_16
-    21300034: Crono_17
-    21300036: Crono_18
-    21300038: Crono_19
-    21300040: Crono_20
-    21300042: Crono_21
+    21300030: Back_View_Idal
+    21300032: Back_View_Walk1
+    21300034: Back_View_Walk2
+    21300036: Back_View_Walk3
+    21300038: Back_View_Walk4
+    21300040: Back_View_Walk5
+    21300042: Back_View_Walk6
     21300044: Crono_22
     21300046: Crono_23
     21300048: Crono_24
     21300050: Crono_25
     21300052: Crono_26
     21300054: Crono_27
-    21300056: Crono_28
-    21300058: Crono_29
-    21300060: Crono_30
-    21300062: Crono_31
-    21300064: Crono_32
-    21300066: Crono_33
-    21300068: Crono_34
-    21300070: Crono_35
-    21300072: Crono_36
+    21300056: Side_View_Idal1
+    21300058: Side_View_Idal2
+    21300060: Side_View_Idal3
+    21300062: Side_View_Walk1
+    21300064: Side_View_Walk2
+    21300066: Side_View_Walk3
+    21300068: Side_View_Walk4
+    21300070: Side_View_Walk5
+    21300072: Side_View_Walk6
     21300074: Crono_37
     21300076: Crono_38
     21300078: Crono_39
@@ -53,9 +53,9 @@ TextureImporter:
     21300092: Crono_46
     21300094: Crono_47
     21300096: Crono_48
-    21300098: Crono_49
-    21300100: Crono_50
-    21300102: Crono_51
+    21300098: Front_View_Slash1
+    21300100: Front_View_Slash2
+    21300102: Front_View_Slash3
     21300104: Crono_52
     21300106: Crono_53
     21300108: Crono_54
@@ -64,9 +64,9 @@ TextureImporter:
     21300114: Crono_57
     21300116: Crono_58
     21300118: Crono_59
-    21300120: Crono_60
-    21300122: Crono_61
-    21300124: Crono_62
+    21300120: Back_View_Slash1
+    21300122: Back_View_Slash2
+    21300124: Back_View_Slash3
     21300126: Crono_63
     21300128: Crono_64
     21300130: Crono_65
@@ -78,10 +78,10 @@ TextureImporter:
     21300142: Crono_71
     21300144: Crono_72
     21300146: Crono_73
-    21300148: Crono_74
+    21300148: Side_View_Slash1
     21300150: Crono_75
-    21300152: Crono_76
-    21300154: Crono_77
+    21300152: Side_View_Slash2
+    21300154: Side_View_Slash3
     21300156: Crono_78
   serializedVersion: 2
   mipmaps:
@@ -128,7 +128,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Crono_0
+    - name: Front_view_Idal1
       rect:
         serializedVersion: 2
         x: 8
@@ -136,9 +136,9 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_1
+    - name: Front_view_Idal2
       rect:
         serializedVersion: 2
         x: 28
@@ -146,9 +146,9 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_2
+    - name: Front_view_Idal3
       rect:
         serializedVersion: 2
         x: 48
@@ -156,9 +156,9 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_3
+    - name: Front_view_Walk1
       rect:
         serializedVersion: 2
         x: 78
@@ -166,9 +166,9 @@ TextureImporter:
         width: 18
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_4
+    - name: Front_view_Walk2
       rect:
         serializedVersion: 2
         x: 98
@@ -176,9 +176,9 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_5
+    - name: Front_view_Walk3
       rect:
         serializedVersion: 2
         x: 120
@@ -186,9 +186,9 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_6
+    - name: Front_view_Walk4
       rect:
         serializedVersion: 2
         x: 142
@@ -196,9 +196,9 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_7
+    - name: Front_view_Walk5
       rect:
         serializedVersion: 2
         x: 162
@@ -206,7 +206,7 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_8
       rect:
@@ -216,7 +216,7 @@ TextureImporter:
         width: 20
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_9
       rect:
@@ -226,7 +226,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_10
       rect:
@@ -236,7 +236,7 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_11
       rect:
@@ -246,7 +246,7 @@ TextureImporter:
         width: 22
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_12
       rect:
@@ -256,7 +256,7 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_13
       rect:
@@ -266,7 +266,7 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_14
       rect:
@@ -276,9 +276,9 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_15
+    - name: Back_View_Idal
       rect:
         serializedVersion: 2
         x: 28
@@ -286,9 +286,9 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_16
+    - name: Back_View_Walk1
       rect:
         serializedVersion: 2
         x: 78
@@ -296,9 +296,9 @@ TextureImporter:
         width: 18
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_17
+    - name: Back_View_Walk2
       rect:
         serializedVersion: 2
         x: 98
@@ -306,9 +306,9 @@ TextureImporter:
         width: 20
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_18
+    - name: Back_View_Walk3
       rect:
         serializedVersion: 2
         x: 120
@@ -316,9 +316,9 @@ TextureImporter:
         width: 20
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_19
+    - name: Back_View_Walk4
       rect:
         serializedVersion: 2
         x: 142
@@ -326,9 +326,9 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_20
+    - name: Back_View_Walk5
       rect:
         serializedVersion: 2
         x: 162
@@ -336,9 +336,9 @@ TextureImporter:
         width: 18
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_21
+    - name: Back_View_Walk6
       rect:
         serializedVersion: 2
         x: 184
@@ -346,7 +346,7 @@ TextureImporter:
         width: 18
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_22
       rect:
@@ -356,7 +356,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_23
       rect:
@@ -366,7 +366,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_24
       rect:
@@ -376,7 +376,7 @@ TextureImporter:
         width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_25
       rect:
@@ -386,7 +386,7 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_26
       rect:
@@ -396,7 +396,7 @@ TextureImporter:
         width: 18
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_27
       rect:
@@ -406,9 +406,9 @@ TextureImporter:
         width: 18
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_28
+    - name: Side_View_Idal1
       rect:
         serializedVersion: 2
         x: 8
@@ -416,9 +416,9 @@ TextureImporter:
         width: 14
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_29
+    - name: Side_View_Idal2
       rect:
         serializedVersion: 2
         x: 28
@@ -426,9 +426,9 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_30
+    - name: Side_View_Idal3
       rect:
         serializedVersion: 2
         x: 50
@@ -436,9 +436,9 @@ TextureImporter:
         width: 14
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_31
+    - name: Side_View_Walk1
       rect:
         serializedVersion: 2
         x: 74
@@ -446,9 +446,9 @@ TextureImporter:
         width: 22
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_32
+    - name: Side_View_Walk2
       rect:
         serializedVersion: 2
         x: 100
@@ -456,9 +456,9 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_33
+    - name: Side_View_Walk3
       rect:
         serializedVersion: 2
         x: 122
@@ -466,9 +466,9 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_34
+    - name: Side_View_Walk4
       rect:
         serializedVersion: 2
         x: 142
@@ -476,9 +476,9 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_35
+    - name: Side_View_Walk5
       rect:
         serializedVersion: 2
         x: 170
@@ -486,9 +486,9 @@ TextureImporter:
         width: 14
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_36
+    - name: Side_View_Walk6
       rect:
         serializedVersion: 2
         x: 190
@@ -496,7 +496,7 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_37
       rect:
@@ -506,7 +506,7 @@ TextureImporter:
         width: 26
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_38
       rect:
@@ -516,7 +516,7 @@ TextureImporter:
         width: 32
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_39
       rect:
@@ -526,7 +526,7 @@ TextureImporter:
         width: 28
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_40
       rect:
@@ -536,7 +536,7 @@ TextureImporter:
         width: 28
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_41
       rect:
@@ -546,7 +546,7 @@ TextureImporter:
         width: 28
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_42
       rect:
@@ -556,7 +556,7 @@ TextureImporter:
         width: 28
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_43
       rect:
@@ -566,7 +566,7 @@ TextureImporter:
         width: 20
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_44
       rect:
@@ -576,7 +576,7 @@ TextureImporter:
         width: 18
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_45
       rect:
@@ -586,7 +586,7 @@ TextureImporter:
         width: 18
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_46
       rect:
@@ -596,7 +596,7 @@ TextureImporter:
         width: 18
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_47
       rect:
@@ -606,7 +606,7 @@ TextureImporter:
         width: 28
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_48
       rect:
@@ -616,19 +616,19 @@ TextureImporter:
         width: 28
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_49
+    - name: Front_View_Slash1
       rect:
         serializedVersion: 2
         x: 233
         y: 120
         width: 16
         height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .678064346, y: .291205555}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_50
+    - name: Front_View_Slash2
       rect:
         serializedVersion: 2
         x: 257
@@ -636,9 +636,9 @@ TextureImporter:
         width: 20
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_51
+    - name: Front_View_Slash3
       rect:
         serializedVersion: 2
         x: 283
@@ -646,7 +646,7 @@ TextureImporter:
         width: 20
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_52
       rect:
@@ -656,7 +656,7 @@ TextureImporter:
         width: 26
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_53
       rect:
@@ -666,7 +666,7 @@ TextureImporter:
         width: 36
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_54
       rect:
@@ -676,7 +676,7 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_55
       rect:
@@ -686,7 +686,7 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_56
       rect:
@@ -696,7 +696,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_57
       rect:
@@ -706,7 +706,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_58
       rect:
@@ -716,7 +716,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_59
       rect:
@@ -726,9 +726,9 @@ TextureImporter:
         width: 18
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_60
+    - name: Back_View_Slash1
       rect:
         serializedVersion: 2
         x: 235
@@ -736,9 +736,9 @@ TextureImporter:
         width: 16
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_61
+    - name: Back_View_Slash2
       rect:
         serializedVersion: 2
         x: 257
@@ -746,9 +746,9 @@ TextureImporter:
         width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_62
+    - name: Back_View_Slash3
       rect:
         serializedVersion: 2
         x: 283
@@ -756,7 +756,7 @@ TextureImporter:
         width: 20
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_63
       rect:
@@ -766,7 +766,7 @@ TextureImporter:
         width: 24
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_64
       rect:
@@ -776,7 +776,7 @@ TextureImporter:
         width: 32
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_65
       rect:
@@ -786,7 +786,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_66
       rect:
@@ -796,7 +796,7 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_67
       rect:
@@ -806,7 +806,7 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_68
       rect:
@@ -816,7 +816,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_69
       rect:
@@ -826,7 +826,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_70
       rect:
@@ -836,7 +836,7 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_71
       rect:
@@ -846,7 +846,7 @@ TextureImporter:
         width: 14
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_72
       rect:
@@ -856,7 +856,7 @@ TextureImporter:
         width: 16
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_73
       rect:
@@ -866,17 +866,17 @@ TextureImporter:
         width: 16
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_74
+    - name: Side_View_Slash1
       rect:
         serializedVersion: 2
         x: 235
         y: 10
         width: 18
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .661345601, y: .300000012}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_75
       rect:
@@ -886,9 +886,9 @@ TextureImporter:
         width: 24
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_76
+    - name: Side_View_Slash2
       rect:
         serializedVersion: 2
         x: 259
@@ -896,9 +896,9 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Crono_77
+    - name: Side_View_Slash3
       rect:
         serializedVersion: 2
         x: 297
@@ -906,7 +906,7 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Crono_78
       rect:
@@ -916,7 +916,7 @@ TextureImporter:
         width: 28
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

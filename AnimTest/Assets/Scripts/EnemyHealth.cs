@@ -4,11 +4,9 @@ using System.Collections;
 public class EnemyHealth : MonoBehaviour {
 	public int currentHealth = 100;
 	bool isDead=false;
-	public Animator anim;
 	public GameObject heart;
 	// Use this for initialization
 	void Start () {
-		anim.GetComponent<Animator> ();
 
 	}
 	
