@@ -13,7 +13,7 @@ public class PatrolScript : MonoBehaviour {
     Vector3 originalScale, scaleRotX;
 
 	void Start () {
-        moveTime = distance;
+
         direction = true;
       //  timer = 0;
         originalScale = transform.localScale;
@@ -21,34 +21,28 @@ public class PatrolScript : MonoBehaviour {
 	}
 
 	void Update () {
+		moveTime = distance;
         if (transform.position.x > GameObject.FindGameObjectWithTag("Player").transform.position.x)
             transform.localScale = originalScale;
         else
             transform.localScale = scaleRotX;
-       
-		Vector3 temp = transform.localScale;
-        if (timer <= moveTime) {
-            if (direction) {
-				anim.SetBool("Walk",true);
-				transform.localScale=temp;
-                transform.Translate(Vector3.right * speed * Time.deltaTime);
-            } else {
-				temp.x=-1;
-				transform.localScale=temp;
-				anim.SetBool("Walk",true);
-                transform.Translate(Vector3.left * speed * Time.deltaTime);
+			Vector3 temp = transform.localScale;
+		if (timer < moveTime) {
+			if (direction) {
+				anim.SetBool ("Walk", true);
+				transform.localScale = temp;
+				transform.Translate (Vector3.right * speed * Time.deltaTime);
+			} else {
+				temp.x = -1;
+				transform.localScale = temp;
+				anim.SetBool ("Walk", true);
+				transform.Translate (Vector3.left * speed * Time.deltaTime);
 			}
 			timer += Time.deltaTime;
-        } else {
-            timer = 0;
-            direction = !direction;
-
-        }
-	}
-	void OnTriggerEnter(Collider other){
-		if (other.tag == "Player")
+		} else {
 			timer = 0;
-		else
-			timer = 100;
+			direction = !direction;
+			anim.SetBool ("Walk", false);
+		}
 	}
 }

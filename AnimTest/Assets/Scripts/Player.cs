@@ -108,8 +108,7 @@ public class Player : MonoBehaviour
 				after2.Image();
 				after3.Image();
 				SoundManager.instance.PlaySingle(Dash);
-				Vector3 temp= new Vector3(velocity.x * 5f,velocity.y,velocity.z);
-				cc.Move (temp*Time.deltaTime );
+				cc.SimpleMove(velocity*100f);
 			}
 		}
 		if(transform.position.y <= -20) {
