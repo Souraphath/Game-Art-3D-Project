@@ -29,7 +29,7 @@ public class EnemyHealth : MonoBehaviour {
 		int x = Random.Range (0, 4);
 		Vector3 temp = gameObject.transform.position;
 		temp.y -= .5f;
-		temp.z -= .5f;
+		temp.z -=.5f;
 		if (x <=4)
 			Instantiate (heart, temp, gameObject.transform.rotation);
 		//anim.SetBool ("IsDead",true);
