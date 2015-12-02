@@ -54,12 +54,13 @@ public class Player : MonoBehaviour
 			}
 			// movement
 			if (in2DMode) {
-				forwardSpeed = 0;
 				Vector3 curPos = transform.position;
 				Vector3 newPos = curPos - new Vector3 (0, 0, 7 + curPos.z);
 				transform.position = newPos;
-			} else
+			} else if (!in2DMode){
 				forwardSpeed = Input.GetAxis ("Vertical") * moveSpeed;
+			}
+
 			if (!isground)
 				verticalVelocity += Physics.gravity.y * 1.5f * Time.deltaTime;
 			if (isground) {
@@ -107,7 +108,6 @@ public class Player : MonoBehaviour
 				after1.Image();
 				after2.Image();
 				after3.Image();
-				SoundManager.instance.PlaySingle(Dash);
 				Vector3 temp= new Vector3(velocity.x * 5f,velocity.y,velocity.z);
 				cc.Move (temp*Time.deltaTime );
 			}

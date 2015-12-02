@@ -17,6 +17,10 @@ public class PlayMusic : MonoBehaviour {
 		musicSource = GetComponent<AudioSource> ();
 		musicClips = new AudioClip[]{
 			Resources.Load ("Deep Haze") as AudioClip,
+			Resources.Load ("Rhinoceros") as AudioClip,
+			Resources.Load ("Harmful of Fatal") as AudioClip,
+			Resources.Load ("In a Heartbeat") as AudioClip,
+			Resources.Load ("Mistake the Getaway") as AudioClip,
 			Resources.Load ("Rhinoceros") as AudioClip
 		};
 	}

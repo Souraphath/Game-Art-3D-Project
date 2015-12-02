@@ -3,9 +3,9 @@ using System.Collections;
 
 public class SceneSwitch : MonoBehaviour {
 
-    public string sceneName;
+    public int sceneIndex;
 
     void OnTriggerEnter() {
-        Application.LoadLevel(sceneName);
+		Application.LoadLevel(sceneIndex);
     }
 }

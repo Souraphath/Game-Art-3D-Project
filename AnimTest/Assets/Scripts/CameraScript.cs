@@ -19,6 +19,9 @@ public class CameraScript : MonoBehaviour
     public float lookSmoothDamp = 0.3f; // bigger is smoother
     [HideInInspector]
     public bool in2DMode;
+	public bool canShift;
+
+	private Transform parentTransform;
 
     [HideInInspector]
     public float currentAimRatio = 1.0f;
@@ -33,19 +36,14 @@ public class CameraScript : MonoBehaviour
         zPos = -3f;
         transform.localPosition = new Vector3(0, -0.225f, zPos);
         cameraRef = GetComponent<Camera>();
+		canShift = true;
     }
 
     void LateUpdate()
     {
-        if (Input.GetButtonDown ("Switch")) {
-			in2DMode = !in2DMode;
-			if (in2DMode) {
-				zPos = Mathf.SmoothDamp (-3f, -2, ref yRotV, 2);
-				cameraRef.orthographic = true;
-			} else {
-				zPos = Mathf.SmoothDamp (-2, -3f, ref yRotV, 2);
-				cameraRef.orthographic = false;
-			}
+		parentTransform = GetComponentInParent<Transform>();
+        if (canShift && Input.GetButtonDown ("Switch")) {
+			switchPerspective();
 		}
 
         curXRot = Mathf.SmoothDamp(curXRot, xRot, ref xRotV, lookSmoothDamp);
@@ -64,4 +62,15 @@ public class CameraScript : MonoBehaviour
         if (transform.position.y <= -15)
             transform.position = new Vector3(transform.position.x, -15f, transform.position.z);
     }
+
+	public void switchPerspective(){
+		in2DMode = !in2DMode;
+		if (in2DMode) {
+			zPos = Mathf.SmoothDamp (-3f, -2, ref yRotV, 2);
+			cameraRef.orthographic = true;
+		} else {
+			zPos = Mathf.SmoothDamp (-2, -3f, ref yRotV, 2);
+			cameraRef.orthographic = false;
+		}
+	}
 }

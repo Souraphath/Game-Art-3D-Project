@@ -10,6 +10,9 @@ public class Collectible : MonoBehaviour {
 	}
 
     void OnTriggerEnter(Collider other) {
-        if (other.tag == "Player") Destroy(gameObject);
+		if (other.tag == "Player") {
+			ScoreScript.PLAYER_SCORE += 15;
+			Destroy(gameObject);
+		} 
     }
 }

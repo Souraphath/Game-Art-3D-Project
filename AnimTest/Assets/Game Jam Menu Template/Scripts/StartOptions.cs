@@ -40,8 +40,8 @@ public class StartOptions : MonoBehaviour {
 		//To change fade time, change length of animation "FadeToColor"
 		if (changeMusicOnStart) 
 		{
-			playMusic.FadeDown(fadeColorAnimationClip.length);
-			Invoke ("PlayNewMusic", fadeAlphaAnimationClip.length);
+			//playMusic.FadeDown(fadeColorAnimationClip.length);
+			//Invoke ("PlayNewMusic", fadeAlphaAnimationClip.length);
 		}
 
 		//If changeScenes is true, start fading and change scenes halfway through animation when screen is blocked by FadeImage
@@ -99,10 +99,6 @@ public class StartOptions : MonoBehaviour {
 
 		//Wait until game has started, then hide the main menu
 		Invoke("HideDelayed", fadeAlphaAnimationClip.length);
-
-		Debug.Log ("Game started in same scene! Put your game starting stuff here.");
-
-
 	}
 
 
