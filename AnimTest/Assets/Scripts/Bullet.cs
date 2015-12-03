@@ -10,10 +10,7 @@ public class Bullet : MonoBehaviour {
 		rig = GetComponent<Rigidbody> ();
 		anim = GetComponent<Animator>();
 	}
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 	void OnTriggerEnter(Collider other){
 		if (other.tag == "Enemy") {
 			if(other.GetComponent<EnemyHealth>())
